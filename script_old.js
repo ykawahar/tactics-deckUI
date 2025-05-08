@@ -190,16 +190,30 @@ function startGame() {
 }
 
 function drawCard() {
-    if (drawPile.length === 0 && discardPile.length > 0) {
-        // Reshuffle discard into deck
-        drawPile = shuffle(discardPile);
-        discardPile = [];
-        alert("Deck empty. Reshuffling discard pile.");
-    }
-
-    if (drawPile.length === 0) {
+    // If both drawPile and discardPile are empty, no cards can be drawn
+    if (drawPile.length === 0 && discardPile.length === 0) {
         alert("No cards left to draw!");
         return;
+    }
+
+    // If drawPile is empty but discardPile has cards, prompt to reshuffle
+    if (drawPile.length === 0 && discardPile.length > 0) {
+        const confirmReshuffle = confirm("The deck is empty. Do you want to reshuffle the discard pile into the deck? (Top 5 cards will be lost.)");
+
+        if (confirmReshuffle) {
+            drawPile = shuffle(discardPile);
+            discardPile = [];
+
+            // Move top 5 to lost pile
+            const lost = drawPile.splice(0, 5);
+            lostPile.push(...lost);
+
+            showBanner("Discard reshuffled. 5 cards lost.", "warning");
+            updateUI();
+            return;
+        } else {
+            return; // Do not draw
+        }
     }
 
     const nextCard = drawPile.shift();
