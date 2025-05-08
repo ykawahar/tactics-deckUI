@@ -1,0 +1,73 @@
+.card-type-normal {
+    background-color: #d9d9d9;
+    border-color: #000000;
+  }
+  
+  .card-type-flying {
+    background-color: #c8e3fb;
+    border-color: #000000;
+  }
+  
+  .card-type-fire {
+    background-color: #ffa5a7;
+    border-color: #000000;
+  }
+  
+  .card-type-water {
+    background-color: #a1ccfe;
+    border-color: #000000;
+  }
+  
+  .card-type-dark {
+    background-color: #bab3b2;
+    border-color: #000000;
+  }
+
+  .card-type-bug {
+    background-color: #d1da9c;
+    border-color: #000000;
+  }
+
+  .card-type-item {
+    background-color: #fff8e1;
+    border-color: #a67c00;
+  }
+  
+  .card-type-trainer {
+    background-color: #f0f0f0;
+    border-color: #888;
+  }
+  
+  #handContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+  }
+
+  .card-hand {
+    width: 200px;
+    aspect-ratio: 5 / 7;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: space-between; */
+    /* padding: 0.5rem; */
+    font-size: 0.85rem;
+    overflow: hidden;
+  }
+
+  .card-hand .card-description {
+    font-size: 0.8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .card-footer {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+  }

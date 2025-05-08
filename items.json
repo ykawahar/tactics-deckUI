@@ -1,0 +1,8 @@
+[
+    { "id": 100001, "name": "Potion", "type": "Item", "category": "", "power": "", "range": "", "description": "Heal one of your Pokemon by 1 HP.", "character":"Item" },
+    { "id": 100002, "name": "X Speed", "type": "Item", "category": "", "power": "", "range": "", "description": "One Pokemon of choice can move 1 extra space.", "character":"Item" },
+    { "id": 100003, "name": "Firebreather", "type": "Trainer", "category": "", "power": "", "range": "", "description": "The next Fire attack deals +2 damage.", "character":"Trainer" },
+    { "id": 100004, "name": "Burglar", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Ally Fire and Poison types are protected.", "character":"Trainer" },
+    { "id": 100005, "name": "Swimmer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "One ally Water Pokemon gains +1 Move.", "character":"Trainer" },
+    { "id": 100006, "name": "Sailor", "type": "Trainer", "category": "", "power": "", "range": "", "description": "One ally Water Pokemon gains +1 Power.", "character":"Trainer" }
+]
