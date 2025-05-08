@@ -13,8 +13,8 @@
             {"name" : "Heat Wave", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
             {"name" : "Heat Wave", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
             {"name" : "Heat Wave", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
-            {"name" : "Fire Blast", "description" : "Discard a card into the Lost piLe to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
-            {"name" : "Fire Blast", "description" : "Discard a card into the Lost piLe to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
+            {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
+            {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
             {"name" : "極: Inferno Blast Burn", "description" : "Cost: 3. Hits the target and all enemies adjacent to the target. Affected targets take +1 damage from Fire attacks until the end of this turn. <br> You cannot play any other Charizard card on this turn.", "type" : "Fire", "category" : "Ranged", "power" : "+3", "range" : "2+"}
         ]
     },
