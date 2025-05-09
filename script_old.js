@@ -131,12 +131,15 @@ function renderList(listId, pile, selectedSet, onChangeCallback) {
 function updateSelectionButtons() {
     const discardBtn = document.getElementById("discardSelectedBtn");
     const lostBtn = document.getElementById("lostSelectedBtn");
+    const reshuffleBtn = document.getElementById("reshuffleInBtn");
     const count = selectedCardIndexes.size;
 
     discardBtn.disabled = count === 0;
     lostBtn.disabled = count === 0;
+    reshuffleBtn.disabled = count === 0;
     discardBtn.textContent = `Discard (${count})`;
     lostBtn.textContent = `Lost (${count})`;
+    reshuffleBtn.textContent = `Reshuffle into Deck (${count})`;
 }
 
 function updateActionButtons() {
@@ -350,6 +353,7 @@ document.getElementById("searchDeckBtn").addEventListener("click", () => {
 document.getElementById("closeDeckSearchBtn").addEventListener("click", () => {
     document.getElementById("deckSearchContainer").classList.add("d-none");
     selectedDeckIndexes.clear();
+    drawPile = shuffle(drawPile);
     updateUI();
 });
 
@@ -365,6 +369,25 @@ document.getElementById("deckToHandBtn").addEventListener("click", () => {
     showBanner("Selected cards added to hand.", "success");
 });
 
+document.getElementById("reshuffleInBtn").addEventListener("click", () => {
+  if (selectedCardIndexes.size === 0) return;
+
+  const remainingHand = [];
+  hand.forEach((card, index) => {
+    if (selectedCardIndexes.has(index)) {
+      drawPile.push(card);
+    } else {
+      remainingHand.push(card);
+    }
+  });
+
+  hand = remainingHand;
+  selectedCardIndexes.clear();
+
+  drawPile = shuffle(drawPile);
+  updateUI();
+  showBanner("Selected cards returned to deck and reshuffled.", "primary");
+});
 
 // --- Initial UI ---
 updateUI();
