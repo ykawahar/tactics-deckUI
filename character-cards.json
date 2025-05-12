@@ -130,8 +130,8 @@
             {"name" : "Fire Punch", "description" : "Deal +1 damage if used after the user's Fire Punch or Sky Uppercut. If used immediately after Sky Uppercut, treat as Fighting type.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Fire Punch", "description" : "Deal +1 damage if used after the user's Fire Punch or Sky Uppercut. If used immediately after Sky Uppercut, treat as Fighting type.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Fire Punch", "description" : "Deal +1 damage if used after the user's Fire Punch or Sky Uppercut. If used immediately after Sky Uppercut, treat as Fighting type.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "High Jump Kick", "description" : "Hits Protected (Flying) if used immediately after Sky Uppercut. Take 2 damage if not used after a damage dealing Blaziken action or this deals no damage. If used after Blaze Kick, treat as Fire type. If used after Sky Uppercut, match its type.", "type" : "Fighting", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "High Jump Kick", "description" : "Hits Protected (Flying) if used immediately after Sky Uppercut. Take 2 damage if not used after a damage dealing Blaziken action or this deals no damage. If used after Blaze Kick, treat as Fire type. If used after Sky Uppercut, match its type.", "type" : "Fighting", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "High Jump Kick", "description" : "Hits Protected (Flying) if used immediately after Sky Uppercut. Take 2 damage if not used after a damage dealing Blaziken action or this deals no damage (including discards). If used after Blaze Kick, treat as Fire type. If used after Sky Uppercut, match its type.", "type" : "Fighting", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "High Jump Kick", "description" : "Hits Protected (Flying) if used immediately after Sky Uppercut. Take 2 damage if not used after a damage dealing Blaziken action or this deals no damage (including discards). If used after Blaze Kick, treat as Fire type. If used after Sky Uppercut, match its type.", "type" : "Fighting", "category" : "Contact", "power" : "+1", "range" : "1"},
             {"name" : "Blaze Kick", "description" : "Ignore Shields. If used after High Jump Kick, match its type.", "type" : "Fire", "category" : "Contact", "power" : "+1", "range" : "1"},
             {"name" : "Blaze Kick", "description" : "Ignore Shields. If used after High Jump Kick, match its type.", "type" : "Fire", "category" : "Contact", "power" : "+1", "range" : "1"},
             {"name" : "Sky Uppercut", "description" : "Hits Protected (Flying) targets. Deal +1 damage if used after Fire Punch. If used after Fire Punch, treat as Fire type.", "type" : "Fighting", "category" : "Contact", "power" : "+0", "range" : "1"},
@@ -237,6 +237,86 @@
             {"name" : "Razor Leaf", "description" : "Slicing move. Hits all enemies in range. If multiple enemies are hit, ignore Shields.", "type" : "Grass", "category" : "Ranged", "power" : "+0", "range" : "|(4)"},
             {"name" : "Razor Leaf", "description" : "Slicing move. Hits all enemies in range. If multiple enemies are hit, ignore Shields.", "type" : "Grass", "category" : "Ranged", "power" : "+0", "range" : "|(4)"},
             {"name" : "極: Budding Seed Bomb", "description" : "Cost: 2. Bomb move. All enemies in range take damage. All allies in range heal 2 HP.", "type" : "Grass", "category" : "Ranged", "power" : "+1", "range" : "※(2)"}
+        ]
+    },
+    {
+        "id" : 25,
+        "name" : "Pikachu",
+        "type" : "Electric",
+        "role" : "Mage",
+        "rank" : "2",
+        "deck": [
+            {"name" : "Quick Attack", "description" : "The user gains 1 Move. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Quick Attack", "description" : "The user gains 1 Move. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Quick Attack", "description" : "The user gains 1 Move. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Electro Ball", "description" : "Ball move. Deals +1 damage to Paralyzed targets.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Electro Ball", "description" : "Ball move. Deals +1 damage to Paralyzed targets.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Electro Ball", "description" : "Ball move. Deals +1 damage to Paralyzed targets.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Thunderbolt", "description" : "The target is Paralyzed.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Thunderbolt", "description" : "The target is Paralyzed.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Thunderbolt", "description" : "The target is Paralyzed.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Thunder", "description" : "", "type" : "Electric", "category" : "Ranged", "power" : "+1", "range" : "3"},
+            {"name" : "極: Supercharged Volt Tackle", "description" : "Cost: 2. Target any unobstructed enemy on the same row and move up to them. Then, Pikachu gains 3 Move. If this damages, the target is Paralyzed.", "type" : "Electric", "category" : "Contact", "power" : "+1", "range" : "|(Row)"}
+        ]
+    },
+    {
+        "id" : 179,
+        "name" : "Mareep",
+        "type" : "Electric",
+        "role" : "Tank",
+        "rank" : "1",
+        "deck": [
+            {"name" : "Thunder Wave", "description" : "All enemies in range are Paralyzed.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Thunder Wave", "description" : "All enemies in range are Paralyzed.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Thunder Wave", "description" : "All enemies in range are Paralyzed.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Charge", "description" : "The user gains 1 Shield. Search your deck for an Electric-type card, reveal it, and add it to your hand.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Charge", "description" : "The user gains 1 Shield. Search your deck for an Electric-type card, reveal it, and add it to your hand.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Charge", "description" : "The user gains 1 Shield. Search your deck for an Electric-type card, reveal it, and add it to your hand.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shields.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shields.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Discharge", "description" : "Remove all Shields from the user. Add the amount removed to damage.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "※(2)"},
+            {"name" : "Discharge", "description" : "Remove all Shields from the user. Add the amount removed to damage.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "※(2)"},
+            {"name" : "極: Counting Mareep", "description" : "Cost: 2. All enemies within range are Asleep. Mareep heals 6 HP.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "※(1)"}
+        ]
+    },
+    {
+        "id" : 695,
+        "name" : "Heliolisk",
+        "type" : "Electric/Normal",
+        "role" : "Mage",
+        "rank" : "5",
+        "deck": [
+            {"name" : "Quick Attack", "description" : "The user gains 1 Move. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Quick Attack", "description" : "The user gains 1 Move. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Electrify", "description" : "Until the beginning of your next turn, all of the target's Action cards are Electric-type.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "3"},
+            {"name" : "Electrify", "description" : "Until the beginning of your next turn, all of the target's Action cards are Electric-type.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "3"},
+            {"name" : "Parabolic Charge", "description" : "The user heals HP equal to the number of targets hit.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "※(2)"},
+            {"name" : "Parabolic Charge", "description" : "The user heals HP equal to the number of targets hit.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "※(2)"},
+            {"name" : "Parabolic Charge", "description" : "The user heals HP equal to the number of targets hit.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "※(2)"},
+            {"name" : "Volt Switch", "description" : "The user gains 1 Move. If this deals damage, swap positions with an ally.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Volt Switch", "description" : "The user gains 1 Move. If this deals damage, swap positions with an ally.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Volt Switch", "description" : "The user gains 1 Move. If this deals damage, swap positions with an ally.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "極: Solar Charge", "description" : "Cost: 3. Search your deck for up to 3 Electric-type cards, reveal them, and add them to your hand. Discard any number of them; Heliolisk gains Power per discard.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "※(1)"}
+        ]
+    },
+    {
+        "id" : 523,
+        "name" : "Zebstrika",
+        "type" : "Electric",
+        "role" : "Assassin",
+        "rank" : "6",
+        "deck": [
+            {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Wild Charge", "description" : "The user takes half of the damage dealt (rounded up).", "type" : "Electric", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Wild Charge", "description" : "The user takes half of the damage dealt (rounded up).", "type" : "Electric", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Wild Charge", "description" : "The user takes half of the damage dealt (rounded up).", "type" : "Electric", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Supercell Slam", "description" : "Deal fixed damage equal to the difference between the user's and target's Move. Take damage equal to the amount blocked by Shields.", "type" : "Electric", "category" : "Contact", "power" : "-", "range" : "1"},
+            {"name" : "極: Thunderous Gallop", "description" : "Cost: 1. Zebstrika moves to the last open space in its row. Discard any number of Electric-type cards, and deal damage equal to the number of cards discarded to each target passed through.", "type" : "Electric", "category" : "Contact", "power" : "-", "range" : "|(Row)"}
         ]
     }
 ]
