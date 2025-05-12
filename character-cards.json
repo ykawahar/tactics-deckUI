@@ -10,9 +10,9 @@
             {"name" : "Flamethrower", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
             {"name" : "Flamethrower", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
             {"name" : "Flamethrower", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
-            {"name" : "Heat Wave", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
-            {"name" : "Heat Wave", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
-            {"name" : "Heat Wave", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
+            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
+            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
+            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
             {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
             {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
             {"name" : "極: Inferno Blast Burn", "description" : "Cost: 3. Hits the target and all enemies adjacent to the target. Affected targets take +1 damage from Fire attacks until the end of this turn. <br> You cannot play any other Charizard card on this turn.", "type" : "Fire", "category" : "Ranged", "power" : "+3", "range" : "2+"}
@@ -51,8 +51,8 @@
             {"name" : "Flame Wheel", "description" : "Thaws if frozen. If the user moved on this turn, the user gains 1 Move. Otherwise, the user gains 1 Shield.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Flame Wheel", "description" : "Thaws if frozen. If the user moved on this turn, the user gains 1 Move. Otherwise, the user gains 1 Shield.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Flame Wheel", "description" : "Thaws if frozen. If the user moved on this turn, the user gains 1 Move. Otherwise, the user gains 1 Shield.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Fire Fang", "description" : "The opponent must discard the top card of their deck (Burn). If the user has more Move than the target, the opponent discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Fire Fang", "description" : "The opponent must discard the top card of their deck (Burn). If the user has more Move than the target, the opponent discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Fire Fang", "description" : "If this deals damage, the target player must discard the top card of their deck (Burn). If the user has more Move than the target, the target discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Fire Fang", "description" : "If this deals damage, the target player must discard the top card of their deck (Burn). If the user has more Move than the target, the target discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "極: Loyal Blitz", "description" : "Cost: 3. Growlithe moves to an open space adjacent to any other chosen ally and takes 2 damage. Until the end of your turn, every tie that ally deals damage, Growlithe deals an additional 2 damage (with the properties of this card).", "type" : "Fire", "category" : "Contact", "power" : "-", "range" : "-"}
         ]
     },
@@ -69,9 +69,9 @@
             {"name" : "Skull Bash", "description" : "Can move one extra space before attacking. If the attack damages a target, gain +1 Shield.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Protect", "description" : "The user is protected.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Protect", "description" : "The user is protected.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Bubble", "description" : "If target is an enemy: User gains Bubble. If target is an ally: Ally gains Bubble. Bubble: +1 Shield. Once per round, deal 1 damage to the attacker when hit. Effect is removed at the start of your next turn.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "Bubble", "description" : "If target is an enemy: User gains Bubble. If target is an ally: Ally gains Bubble. Bubble: +1 Shield. Once per round, deal 1 damage to the attacker when hit. Effect is removed at the start of your next turn.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "Bubble", "description" : "If target is an enemy: User gains Bubble. If target is an ally: Ally gains Bubble. Bubble: +1 Shield. Once per round, deal 1 damage to the attacker when hit. Effect is removed at the start of your next turn.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Bubble", "description" : "If enemy target: User gains Bubble. If ally target: Ally gains Bubble. Bubble: +1 Shield. Once per round, deal 1 damage to the attacker when hit. Effect is removed at the start of your next turn. Can stack.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Bubble", "description" : "If enemy target: User gains Bubble. If ally target: Ally gains Bubble. Bubble: +1 Shield. Once per round, deal 1 damage to the attacker when hit. Effect is removed at the start of your next turn. Can stack.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Bubble", "description" : "If enemy target: User gains Bubble. If ally target: Ally gains Bubble. Bubble: +1 Shield. Once per round, deal 1 damage to the attacker when hit. Effect is removed at the start of your next turn. Can stack.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "極: Swirling Water Gun", "description" : "Cost: 2. Squirtle is Protected. Enemies in range are Paralyzed if hit. Allies in range gain 3 Shield.", "type" : "Water", "category" : "Ranged", "power" : "+1", "range" : "+"}
         ]
     },
@@ -138,17 +138,93 @@
         "type" : "Water",
         "role" : "Mage",
         "deck": [
-            {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
-            {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
-            {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
-            {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
+            {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes, and this deals 1 fixed damage.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
+            {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes, and this deals 1 fixed damage.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
+            {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes, and this deals 1 fixed damage.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
+            {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes, and this deals 1 fixed damage.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
             {"name" : "Acrobatics", "description" : "Must start or end adjacent to the target to deal damage. Can move up to 2 spaces before attacking and can pass through enemy spaces. Deal +1 damage if passing through enemy spaces.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "3"},
             {"name" : "Acrobatics", "description" : "Must start or end adjacent to the target to deal damage. Can move up to 2 spaces before attacking and can pass through enemy spaces. Deal +1 damage if passing through enemy spaces.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "3"},
             {"name" : "U-turn", "description" : "If this action deals damage, the user can move up to 2 spaces after.", "type" : "Bug", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "U-turn", "description" : "If this action deals damage, the user can move up to 2 spaces after.", "type" : "Bug", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Snipe Shot", "description" : "The target must be unobstructed. Discard a card when targeting 4 spaces away. Ignores Shields. Can't be redirected.", "type" : "Water", "category" : "Ranged", "power" : "+1", "range" : "4"},
-            {"name" : "Snipe Shot", "description" : "The target must be unobstructed. Discard a card when targeting 4 spaces away. Ignores Shields. Can't be redirected.", "type" : "Water", "category" : "Ranged", "power" : "+1", "range" : "4"},
-            {"name" : "極: Spy Gadgets", "description" : "Cost: 2. Until the beginning of your next turn, Inteleon can hit Guarded targets and Inteleon's ranged attacks have +1 range. You may put up to 2 Inteleon's Water Gun from the discard pile back into your hand.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "Snipe Shot", "description" : "The target must be unobstructed. Discard a card if targeting 4 or more spaces away. Ignores Shields. Can't be redirected.", "type" : "Water", "category" : "Ranged", "power" : "+1", "range" : "4"},
+            {"name" : "Snipe Shot", "description" : "The target must be unobstructed. Discard a card if targeting 4 or more spaces away. Ignores Shields. Can't be redirected.", "type" : "Water", "category" : "Ranged", "power" : "+1", "range" : "4"},
+            {"name" : "極: Spy Gadgets", "description" : "Cost: 2. Until the end of your turn, Inteleon can hit Guarded targets. You may put up to 2 Inteleon's Water Gun from the discard pile back into your hand.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 812,
+        "name" : "Rillaboom",
+        "type" : "Grass",
+        "role" : "Fighter",
+        "deck": [
+            {"name" : "Noble Roar", "description" : "Sound-based. -1 Power to all enemies.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Noble Roar", "description" : "Sound-based. -1 Power to all enemies.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Grassy Glide", "description" : "Can move up to 2 spaces before attacking. Draw a card if used on Grassy Terrain.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Grassy Glide", "description" : "Can move up to 2 spaces before attacking. Draw a card if used on Grassy Terrain.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Wood Hammer", "description" : "The user takes half of the damage dealt (rounded up). The user is Rooted until the end of the turn.", "type" : "Grass", "category" : "Contact", "power" : "+2", "range" : "1"},
+            {"name" : "Wood Hammer", "description" : "The user takes half of the damage dealt (rounded up). The user is Rooted until the end of the turn.", "type" : "Grass", "category" : "Contact", "power" : "+2", "range" : "1"},
+            {"name" : "極: Steady Drumming", "description" : "Cost: 2. Until the end of your turn, Rillaboom gains Power after every Rillaboom's <em> Drum Beating <em> used. You may put up to 2 Rillaboom's Drum Beating from the discard pile back into your hand.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 672,
+        "name" : "Skiddo",
+        "type" : "Grass",
+        "role" : "Tank",
+        "deck": [
+            {"name" : "Growth", "description" : "Gain 1 Power.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Growth", "description" : "Gain 1 Power.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Leech Seed", "description" : "The target is Rooted. Transfer 1 HP from the target to the user, or 2 if Growth was used on this turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Leech Seed", "description" : "The target is Rooted. Transfer 1 HP from the target to the user, or 2 if Growth was used on this turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Milk Drink", "description" : "The user heals 3 HP, or transfers 2 HP from the user to an adjacent ally. The user must not faint from the transfer.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Milk Drink", "description" : "The user heals 3 HP, or transfers 2 HP from the user to an adjacent ally. The user must not faint from the transfer.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Milk Drink", "description" : "The user heals 3 HP, or transfers 2 HP from the user to an adjacent ally. The user must not faint from the transfer.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Milk Drink", "description" : "The user heals 3 HP, or transfers 2 HP from the user to an adjacent ally. The user must not faint from the transfer.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Horn Leech", "description" : "The user heals half of the damage dealt (rounded up).", "type" : "Grass", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Horn Leech", "description" : "The user heals half of the damage dealt (rounded up).", "type" : "Grass", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "極: Gentle Ride", "description" : "Cost: 1. Search your deck for a Trainer card, reveal it, and add it to your hand. Shuffle your deck afterward.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 547,
+        "name" : "Whimsicott",
+        "type" : "Grass/Fairy",
+        "role" : "Support",
+        "deck": [
+            {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 speed. If they are at 1 speed already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 speed. If they are at 1 speed already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Guard", "description" : "All allies within range gain +2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Guard", "description" : "All allies within range gain +2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Guard", "description" : "All allies within range gain +2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Helping Hand", "description" : "The target gains +1 Power until the end of your turn.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "1"},
+            {"name" : "Helping Hand", "description" : "The target gains +1 Power until the end of your turn.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "1"},
+            {"name" : "Fairy Wind", "description" : "Wind move. Deals 1 fixed damage to all enemies in range. The user gains 1 Move. Until the end of your turn, the user's status moves have +1 range.", "type" : "Fairy", "category" : "Ranged", "power" : "-", "range" : "□"},
+            {"name" : "Fairy Wind", "description" : "Wind move. Deals 1 fixed damage to all enemies in range. The user gains 1 Move. Until the end of your turn, the user's status moves have +1 range.", "type" : "Fairy", "category" : "Ranged", "power" : "-", "range" : "□"},
+            {"name" : "Fairy Wind", "description" : "Wind move. Deals 1 fixed damage to all enemies in range. The user gains 1 Move. Until the end of your turn, the user's status moves have +1 range.", "type" : "Fairy", "category" : "Ranged", "power" : "-", "range" : "□"},
+            {"name" : "極: Fairy Tailwind", "description" : "Cost: 2. Wind move. Double the user's speed. Draw 5 cards.", "type" : "Fairy", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 1,
+        "name" : "Bulbasaur",
+        "type" : "Grass/Poison",
+        "role" : "Mage",
+        "deck": [
+            {"name" : "Poison Powder", "description" : "The target is Poisoned. If ally target, they instead gain 1 Power.", "type" : "Poison", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Poison Powder", "description" : "The target is Poisoned. If ally target, they instead gain 1 Power.", "type" : "Poison", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Sleep Powder", "description" : "The target is Asleep. If ally target, they instead heal 1 HP.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Sleep Powder", "description" : "The target is Asleep. If ally target, they instead heal 1 HP.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Vine Whip", "description" : "Can move the target one space. Allies take no damage.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Vine Whip", "description" : "Can move the target one space. Allies take no damage.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Razor Leaf", "description" : "Slicing move. Hits all enemies in range. If multiple enemies are hit, ignore Shields.", "type" : "Grass", "category" : "Ranged", "power" : "+0", "range" : "|(4)"},
+            {"name" : "Razor Leaf", "description" : "Slicing move. Hits all enemies in range. If multiple enemies are hit, ignore Shields.", "type" : "Grass", "category" : "Ranged", "power" : "+0", "range" : "|(4)"},
+            {"name" : "Razor Leaf", "description" : "Slicing move. Hits all enemies in range. If multiple enemies are hit, ignore Shields.", "type" : "Grass", "category" : "Ranged", "power" : "+0", "range" : "|(4)"},
+            {"name" : "Razor Leaf", "description" : "Slicing move. Hits all enemies in range. If multiple enemies are hit, ignore Shields.", "type" : "Grass", "category" : "Ranged", "power" : "+0", "range" : "|(4)"},
+            {"name" : "極: Budding Seed Bomb", "description" : "Cost: 2. Bomb move. All enemies in range take damage. All allies in range heal 2 HP.", "type" : "Grass", "category" : "Ranged", "power" : "+1", "range" : "※(2)"}
         ]
     }
 ]
