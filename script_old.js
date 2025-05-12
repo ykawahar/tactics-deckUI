@@ -123,7 +123,7 @@ function renderList(listId, pile, selectedSet, onChangeCallback) {
         li.className = "list-group-item d-flex align-items-center gap-2";
         li.innerHTML = `
         <input type="checkbox" data-index="${index}" ${checked}>
-        <span><strong>${card.character}</strong> — ${card.name}</span>
+        <span><strong>${card.character}</strong> — <em>${card.type}</em> — ${card.name}</span>
       `;
         list.appendChild(li);
     });
