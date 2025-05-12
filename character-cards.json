@@ -4,6 +4,7 @@
         "name" : "Charizard",
         "type" : "Fire/Flying",
         "role" : "Fighter",
+        "rank" : "6",
         "deck": [
             {"name" : "Air Slash", "description" : "Slicing Move. If the attack deals damage to an enemy, the opponent discards a card from their hand.", "type" : "Flying", "category" : "Ranged", "power" : "+0", "range" : "1"},
             {"name" : "Air Slash", "description" : "Slicing Move. If the attack deals damage to an enemy, the opponent discards a card from their hand.", "type" : "Flying", "category" : "Ranged", "power" : "+0", "range" : "1"},
@@ -23,6 +24,7 @@
         "name" : "Cyndaquil",
         "type" : "Fire",
         "role" : "Tank",
+        "rank" : "2",
         "deck": [
             {"name" : "Smokescreen", "description" : "The user and adjacent allies are Guarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "+"},
             {"name" : "Smokescreen", "description" : "The user and adjacent allies are Guarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "+"},
@@ -42,6 +44,7 @@
         "name" : "Growlithe",
         "type" : "Fire",
         "role" : "Fighter",
+        "rank" : "2",
         "deck": [
             {"name" : "Howl", "description" : "Sound-based. The user and all adjacent allies gain 1 Power.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "+"},
             {"name" : "Howl", "description" : "Sound-based. The user and all adjacent allies gain 1 Power.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "+"},
@@ -61,6 +64,7 @@
         "name" : "Squirtle",
         "type" : "Water",
         "role" : "Tank",
+        "rank" : "2",
         "deck": [
             {"name" : "Withdraw", "description" : "Gain 2 Shield", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Withdraw", "description" : "Gain 2 Shield", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
@@ -80,6 +84,7 @@
         "name" : "Feraligator",
         "type" : "Water",
         "role" : "Fighter",
+        "rank" : "6",
         "deck": [
             {"name" : "Liquidation", "description" : "", "type" : "Water", "category" : "Contact", "power" : "+2", "range" : "1"},
             {"name" : "Liquidation", "description" : "", "type" : "Water", "category" : "Contact", "power" : "+2", "range" : "1"},
@@ -99,6 +104,7 @@
         "name" : "Dewott",
         "type" : "Water",
         "role" : "Fighter",
+        "rank" : "3",
         "deck": [
             {"name" : "Swords Dance", "description" : "Reveal the top 5 cards of your deck. Put any of the user's cards revealed into your hand. Shuffle the rest back into your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Aqua Jet", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
@@ -118,6 +124,7 @@
         "name" : "Blaziken",
         "type" : "Fire/Fighting",
         "role" : "Fighter",
+        "rank" : "6",
         "deck": [
             {"name" : "Fire Punch", "description" : "Deal +1 damage if used after the user's Fire Punch or Sky Uppercut. If used immediately after Sky Uppercut, treat as Fighting type.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Fire Punch", "description" : "Deal +1 damage if used after the user's Fire Punch or Sky Uppercut. If used immediately after Sky Uppercut, treat as Fighting type.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
@@ -137,6 +144,7 @@
         "name" : "Inteleon",
         "type" : "Water",
         "role" : "Mage",
+        "rank" : "6",
         "deck": [
             {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes, and this deals 1 fixed damage.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
             {"name" : "Water Gun", "description" : "Can be played as a Bonus Action after any of Inteleon's Actions. If so, that Action is treated as Water type for Action Bonus purposes, and this deals 1 fixed damage.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "3"},
@@ -156,6 +164,7 @@
         "name" : "Rillaboom",
         "type" : "Grass",
         "role" : "Fighter",
+        "rank" : "6",
         "deck": [
             {"name" : "Noble Roar", "description" : "Sound-based. -1 Power to all enemies.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Noble Roar", "description" : "Sound-based. -1 Power to all enemies.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
@@ -175,6 +184,7 @@
         "name" : "Skiddo",
         "type" : "Grass",
         "role" : "Tank",
+        "rank" : "2",
         "deck": [
             {"name" : "Growth", "description" : "Gain 1 Power.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Growth", "description" : "Gain 1 Power.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
@@ -194,6 +204,7 @@
         "name" : "Whimsicott",
         "type" : "Grass/Fairy",
         "role" : "Support",
+        "rank" : "5",
         "deck": [
             {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 speed. If they are at 1 speed already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
             {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 speed. If they are at 1 speed already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
@@ -213,6 +224,7 @@
         "name" : "Bulbasaur",
         "type" : "Grass/Poison",
         "role" : "Mage",
+        "rank" : "2",
         "deck": [
             {"name" : "Poison Powder", "description" : "The target is Poisoned. If ally target, they instead gain 1 Power.", "type" : "Poison", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Poison Powder", "description" : "The target is Poisoned. If ally target, they instead gain 1 Power.", "type" : "Poison", "category" : "Status", "power" : "-", "range" : "2"},

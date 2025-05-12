@@ -5,11 +5,23 @@ let discardPile = [];
 let lostPile = [];
 let hand = [];
 
+let drawCount = 0;
+
 let selectedCardIndexes = new Set(); // holds indexes of selected cards in `hand`
 let selectedDiscardIndexes = new Set();
 let selectedLostIndexes = new Set();
 let selectedDeckIndexes = new Set();
 
+let characterIdMap = {};
+
+const savedMap = localStorage.getItem('characterIdMap');
+if (savedMap) {
+  try {
+    characterIdMap = JSON.parse(savedMap);
+  } catch (e) {
+    console.warn("Could not parse characterIdMap from localStorage:", e);
+  }
+}
 
 // --- Dummy deck: 3 characters (33 cards) + 9 items ---
 const dummyDeck = [
@@ -177,7 +189,9 @@ function startGame() {
     // Draw 7
     for (let i = 0; i < 7; i++) {
         if (drawPile.length > 0) {
-            hand.push(drawPile.shift());
+            const nextCard = drawPile.shift();
+            nextCard.drawIndex = drawCount++;
+            hand.push(nextCard); //Not calling DrawCard() to avoid draw message.
         }
     }
 
@@ -220,6 +234,7 @@ function drawCard() {
     }
 
     const nextCard = drawPile.shift();
+    nextCard.drawIndex = drawCount++;
     hand.push(nextCard);
     updateUI();
     showBanner("Card drawn!", "success");
@@ -232,6 +247,7 @@ function resetGame() {
     discardPile = [];
     lostPile = [];
     hand = [];
+    drawCount = 0;
     document.getElementById("startBtn").disabled = false;
     document.getElementById("drawBtn").disabled = true;
     document.getElementById("shuffleBtn").disabled = true;
@@ -254,6 +270,50 @@ function shuffleDeck() {
     showBanner("Deck shuffled!", "warning");
 }
 
+function sortHandByType() {
+const order = ["Fire", "Water", "Grass", "Electric", "Ice", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Psychic", "Ghost", "Dark", "Steel", "Dragon", "Fairy", "Normal", "Item", "Trainer"];
+
+  hand.sort((a, b) => {
+    const aTypeIndex = order.indexOf(a.type) !== -1 ? order.indexOf(a.type) : 99;
+    const bTypeIndex = order.indexOf(b.type) !== -1 ? order.indexOf(b.type) : 99;
+
+    if (aTypeIndex !== bTypeIndex) return aTypeIndex - bTypeIndex;
+
+    // Use character ID from the loaded map (or fallback)
+    const aCharId = characterIdMap[a.character] ?? 999;
+    const bCharId = characterIdMap[b.character] ?? 999;
+
+    if (aCharId !== bCharId) return aCharId - bCharId;
+
+    // Fallback: alphabetical by card name
+    return a.name.localeCompare(b.name);
+  });
+
+  updateUI();
+}
+
+function sortHandByCharacter() {
+  hand.sort((a, b) => {
+    const isItemA = a.character === "Item" || a.character === "Trainer";
+    const isItemB = b.character === "Item" || b.character === "Trainer";
+
+    // Put Items/Trainers after characters
+    if (isItemA && !isItemB) return 1;
+    if (!isItemA && isItemB) return -1;
+
+    // Then sort by character name, then card name
+    return (
+      (a.character || "").localeCompare(b.character || "") ||
+      a.name.localeCompare(b.name)
+    );
+  });
+  updateUI();
+}
+
+function sortHandByDrawOrder() {
+  hand.sort((a, b) => (a.drawIndex ?? 0) - (b.drawIndex ?? 0));
+  updateUI();
+}
 
 // --- Event listeners ---
 document.getElementById("startBtn").addEventListener("click", startGame);
@@ -298,8 +358,12 @@ document.getElementById("lostSelectedBtn").addEventListener("click", () => {
 document.getElementById("discardToHandBtn").addEventListener("click", () => {
     const keep = [];
     discardPile.forEach((card, i) => {
-        if (selectedDiscardIndexes.has(i)) hand.push(card);
-        else keep.push(card);
+        if (selectedDiscardIndexes.has(i)) {
+            card.drawIndex = drawCount++;
+            hand.push(card);
+        } else {
+            keep.push(card);
+        }
     });
     discardPile = keep;
     selectedDiscardIndexes.clear();
@@ -322,8 +386,10 @@ document.getElementById("discardToDeckBtn").addEventListener("click", () => {
 document.getElementById("lostToHandBtn").addEventListener("click", () => {
     const keep = [];
     lostPile.forEach((card, i) => {
-        if (selectedLostIndexes.has(i)) hand.push(card);
-        else keep.push(card);
+        if (selectedLostIndexes.has(i)) {
+            card.drawIndex = drawCount++;
+            hand.push(card);
+        } else {keep.push(card);}
     });
     lostPile = keep;
     selectedLostIndexes.clear();
@@ -360,7 +426,10 @@ document.getElementById("closeDeckSearchBtn").addEventListener("click", () => {
 document.getElementById("deckToHandBtn").addEventListener("click", () => {
     const keep = [];
     drawPile.forEach((card, i) => {
-        if (selectedDeckIndexes.has(i)) hand.push(card);
+        if (selectedDeckIndexes.has(i)){
+            card.drawIndex = drawCount++;
+            hand.push(card);
+        }
         else keep.push(card);
     });
     drawPile = keep;
@@ -388,6 +457,10 @@ document.getElementById("reshuffleInBtn").addEventListener("click", () => {
   updateUI();
   showBanner("Selected cards returned to deck and reshuffled.", "primary");
 });
+
+document.getElementById("sortByTypeBtn").addEventListener("click", sortHandByType);
+document.getElementById("sortByCharBtn").addEventListener("click", sortHandByCharacter);
+document.getElementById("sortByDrawBtn").addEventListener("click", sortHandByDrawOrder);
 
 // --- Initial UI ---
 updateUI();

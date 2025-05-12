@@ -69,8 +69,13 @@
         <div class="row mb-3">
             <div class="col-md-12">
                 <div class="card h-100">
-                    <div class="card-header bg-primary text-white">
-                        Your Hand
+                    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <span>Your Hand</span>
+                    <div class="btn-group btn-group-sm" role="group">
+                        <button id="sortByTypeBtn" class="btn btn-outline-light">Sort: Type</button>
+                        <button id="sortByCharBtn" class="btn btn-outline-light">Sort: Character</button>
+                        <button id="sortByDrawBtn" class="btn btn-outline-light">Sort: Draw</button>
+                    </div>
                     </div>
                     <div class="card-body">
                         <div id="handContainer" class="d-flex flex-wrap gap-2"></div>
@@ -88,7 +93,7 @@
                 <div class="card-body">
                   <ul id="deckList" class="list-group list-group-flush mb-2"></ul>
                   <button id="deckToHandBtn" class="btn btn-outline-info btn-sm" disabled>Add to Hand</button>
-                  <button id="closeDeckSearchBtn" class="btn btn-link btn-sm">Close</button>
+                  <button id="closeDeckSearchBtn" class="btn btn-link btn-sm">Close & Shuffle</button>
                 </div>
               </div>              
         </div>

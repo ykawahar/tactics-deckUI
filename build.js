@@ -19,6 +19,13 @@ async function loadDeckData() {
   characterDecks = await characterRes.json();
   itemCards = await itemRes.json();
 
+  const characterIdMap = {};
+  characterDecks.forEach(char => {
+    characterIdMap[char.name] = parseInt(char.id, 10);
+  });
+  localStorage.setItem('characterIdMap', JSON.stringify(characterIdMap));
+
+
   const charInputs = [document.getElementById('charInput1'), document.getElementById('charInput2'), document.getElementById('charInput3')];
   const datalist = document.getElementById('character-options');
 
@@ -34,14 +41,19 @@ async function loadDeckData() {
     input.addEventListener('change', () => {
       
       const selected = characterDecks.find(c => c.name.toLowerCase() === input.value.toLowerCase());
+      const rankDisplay = document.getElementById(`rankDisplay${index + 1}`);
       if (selected) {
         selectedCharacterBySlot[index] = selected;
         renderCharacterDeck(selected, index);
+        if (rankDisplay) rankDisplay.value = selected.rank ?? "—";
       } else {
         selectedCharacterBySlot[index] = null;
         const previewCol = document.getElementById(`char-col-${index}`);
         previewCol.innerHTML = ""; // clear the column
-      }      
+        if (rankDisplay) rankDisplay.value = "—";
+      }   
+      
+      updateTotalRank();
 
     });
   });
@@ -66,35 +78,36 @@ async function loadDeckData() {
 function renderCharacterDeck(character, slotIndex) {
   const previewCol = document.getElementById(`char-col-${slotIndex}`);
   previewCol.innerHTML = `
-    <div class="card h-100">
-      <div class="card-header bg-dark text-white text-center">${character.name}</div>
-      <div class="card-body p-2" style="font-size: 0.85rem;">
-        <table class="table table-sm table-bordered mb-0">
-          <thead class="table-light">
-            <tr>
-              <th>Name</th>
-              <th>Type</th>
-              <th>Category</th>
-              <th>Power</th>
-              <th>Range</th>
+    <div class="card w-100">
+          <div class="card-header bg-dark text-white text-center">${character.name}</div>
+          <div class="card-body p-2" style="font-size: 0.85rem;">
+            <table class="table table-sm table-bordered mb-0">
+              <thead class="table-light">
+                <tr>
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Category</th>
+                  <th>Power</th>
+                  <th>Range</th>
 
-            </tr>
-          </thead>
-          <tbody>
-            ${character.deck.map(card => `
-              <tr>
-                <td><strong title="${card.description.replace(/"/g, '&quot;')}">${card.name}</strong></td>
+                </tr>
+              </thead>
+              <tbody>
+                ${character.deck.map(card => `
+                  <tr>
+                    <td><strong title="${card.description.replace(/"/g, '&quot;')}">${card.name}</strong></td>
 
-                <td>${card.type}</td>
-                <td>${card.category}</td>
-                <td>${card.power}</td>
-                <td>${card.range}</td>
+                    <td>${card.type}</td>
+                    <td>${card.category}</td>
+                    <td>${card.power}</td>
+                    <td>${card.range}</td>
 
-              </tr>
-            `).join('')}
-          </tbody>
-        </table>
-      </div>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+
     </div>
   `;
 
@@ -140,6 +153,15 @@ function renderItemSelectors() {
   }
 }
 
+function updateTotalRank() {
+  const total = selectedCharacterBySlot
+    .filter(Boolean)
+    .reduce((sum, char) => sum + parseInt(char.rank || 0, 10), 0);
+
+  const display = document.getElementById('rankTotalDisplay');
+  display.textContent = `Total Rank: ${total}`;
+}
+
 // ===========================
 // Helpers for Build Page
 // ===========================
@@ -147,18 +169,20 @@ function prefillSelections(deck) {
   const charCounts = {};
   const itemCounts = {};
 
-  deck.forEach(card => {
-    if (card.character && card.deck === undefined) {
-      // Count character cards
-      charCounts[card.character] = (charCounts[card.character] || 0) + 1;
-    } else {
-      // Count items (no character attached)
-      const match = itemCards.find(i => i.name === card.name);
-      if (match) {
-        itemCounts[match.name] = (itemCounts[match.name] || 0) + 1;
-      }
+deck.forEach(card => {
+  const isCharacterCard = characterDecks.some(c => c.name === card.character);
+  if (isCharacterCard) {
+    // Count character cards
+    charCounts[card.character] = (charCounts[card.character] || 0) + 1;
+  } else {
+    // Count item cards
+    const match = itemCards.find(i => i.name === card.name);
+    if (match) {
+      itemCounts[match.name] = (itemCounts[match.name] || 0) + 1;
     }
-  });
+  }
+});
+
 
   console.log("Detected character counts:", charCounts);
   // Prefill characters by name (expects 3 characters of 11 cards each)
