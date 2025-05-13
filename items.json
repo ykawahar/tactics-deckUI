@@ -8,5 +8,5 @@
     { "id": 100007, "name": "Aroma Lady", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Removes status conditions from all allies. Put up to 2 Grass-type Status cards from the discard pile into your hand.", "character":"Trainer" },
     { "id": 100008, "name": "Lass", "type": "Trainer", "category": "", "power": "", "range": "", "description": "All ally Grass, Fairy, and Normal types of Rank 3 and lower gain 2 Shield.", "character":"Trainer" },
     { "id": 100009, "name": "Engineer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Put up to 2 Electric-type cards from the discard pile into your hand.", "character":"Trainer" },
-    { "id": 100010, "name": "Cyclist", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Ally Electric and Flying types gain 1 Move.", "character":"Trainer" }
+    { "id": 100010, "name": "Cyclist", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Ally Electric and Flying types can move 1 extra space.", "character":"Trainer" }
 ]
