@@ -318,5 +318,25 @@
             {"name" : "Supercell Slam", "description" : "Deal fixed damage equal to the difference between the user's and target's Move. Take damage equal to the amount blocked by Shields.", "type" : "Electric", "category" : "Contact", "power" : "-", "range" : "1"},
             {"name" : "極: Thunderous Gallop", "description" : "Cost: 1. Zebstrika moves to the last open space in its row. Discard any number of Electric-type cards, and deal damage equal to the number of cards discarded to each target passed through.", "type" : "Electric", "category" : "Contact", "power" : "-", "range" : "|(Row)"}
         ]
+    },
+    {
+        "id" : 162,
+        "name" : "Furret",
+        "type" : "Normal",
+        "role" : "Support",
+        "rank" : "3",
+        "deck": [
+            {"name" : "Defense Curl", "description" : "The user gains 2 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Defense Curl", "description" : "The user gains 2 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Defense Curl", "description" : "The user gains 2 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Agility", "description" : "The user gains 2 Move.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Agility", "description" : "The user gains 2 Move.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Agility", "description" : "The user gains 2 Move.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Baton Pass", "description" : "Transfer all stat increases and status effects to any other ally. Swap positions with that ally.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Baton Pass", "description" : "Transfer all stat increases and status effects to any other ally. Swap positions with that ally.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Quick Attack", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Quick Attack", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "極: Accumula Walk", "description" : "Cost: 2. All allies can move up to their Move.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
     }
 ]
