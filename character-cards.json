@@ -11,9 +11,9 @@
             {"name" : "Flamethrower", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
             {"name" : "Flamethrower", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
             {"name" : "Flamethrower", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
-            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
-            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
-            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(2)"},
+            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
+            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
+            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
             {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
             {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
             {"name" : "極: Inferno Blast Burn", "description" : "Cost: 3. Hits the target and all enemies adjacent to the target. Affected targets take +1 damage from Fire attacks until the end of this turn. <br> You cannot play any other Charizard card on this turn.", "type" : "Fire", "category" : "Ranged", "power" : "+3", "range" : "2+"}
@@ -309,13 +309,13 @@
             {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "Wild Charge", "description" : "The user takes half of the damage dealt (rounded up).", "type" : "Electric", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "Wild Charge", "description" : "The user takes half of the damage dealt (rounded up).", "type" : "Electric", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "Wild Charge", "description" : "The user takes half of the damage dealt (rounded up).", "type" : "Electric", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "Supercell Slam", "description" : "Deal fixed damage equal to the difference between the user's and target's Move. Take damage equal to the amount blocked by Shields.", "type" : "Electric", "category" : "Contact", "power" : "-", "range" : "1"},
+            {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Wild Charge", "description" : "Deal fixed damage equal to the difference between the user's and target's Move. Take damage equal to the amount blocked by Shields.", "type" : "Electric", "category" : "Contact", "power" : "-", "range" : "1"},
+            {"name" : "Wild Charge", "description" : "Deal fixed damage equal to the difference between the user's and target's Move. Take damage equal to the amount blocked by Shields.", "type" : "Electric", "category" : "Contact", "power" : "-", "range" : "1"},
+            {"name" : "Supercell Slam", "description" : "Target a space a knight's move away and move into that space. If the space is occupied, move that unit to an adjacent space. Take 3 damage if this card is discarded or does not deal damage.", "type" : "Electric", "category" : "Contact", "power" : "+2", "range" : "L(1)"},
+            {"name" : "Supercell Slam", "description" : "Target a space a knight's move away and move into that space. If the space is occupied, move that unit to an adjacent space. Take 3 damage if this card is discarded or does not deal damage.", "type" : "Electric", "category" : "Contact", "power" : "+2", "range" : "L(1)"},
             {"name" : "極: Thunderous Gallop", "description" : "Cost: 1. Zebstrika moves to the last open space in its row. Discard any number of Electric-type cards, and deal damage equal to the number of cards discarded to each target passed through.", "type" : "Electric", "category" : "Contact", "power" : "-", "range" : "|(Row)"}
         ]
     },
@@ -336,7 +336,46 @@
             {"name" : "Baton Pass", "description" : "Transfer all stat increases and status effects to any other ally. Swap positions with that ally.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Quick Attack", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Quick Attack", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "極: Accumula Walk", "description" : "Cost: 2. All allies can move up to their Move.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "極: Accumula Walk", "description" : "Cost: 3. All allies can move up to their Move.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 133,
+        "name" : "Eevee",
+        "type" : "Normal",
+        "role" : "Support",
+        "rank" : "2",
+        "deck": [
+            {"name" : "Tail Whip", "description" : "Until the beginning of your next turn, enemies in range take +1 damage from attacks (can stack).", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "ー(3)"},
+            {"name" : "Tail Whip", "description" : "Until the beginning of your next turn, enemies in range take +1 damage from attacks (can stack).", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "ー(3)"},
+            {"name" : "Tail Whip", "description" : "Until the beginning of your next turn, enemies in range take +1 damage from attacks (can stack).", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "ー(3)"},
+            {"name" : "Helping Hand", "description" : "The target's next action deals +2 damage.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "1"},
+            {"name" : "Helping Hand", "description" : "The target's next action deals +2 damage.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "1"},
+            {"name" : "Helping Hand", "description" : "The target's next action deals +2 damage.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "1"},
+            {"name" : "Quick Attack", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Quick Attack", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Swift", "description" : "Can hit Guarded targets. If this is the only Eevee Action this turn, Eevee gains 1 Move.", "type" : "Normal", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Swift", "description" : "Can hit Guarded targets. If this is the only Eevee Action this turn, Eevee gains 1 Move.", "type" : "Normal", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "極: Evolutionary Potential", "description" : "Cost: 3. Eevee and all adjacent allies gain 1 Power, Shield, and Move.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "※(1)"}
+        ]
+    },
+    {
+        "id" : 52,
+        "name" : "Meowth",
+        "type" : "Normal",
+        "role" : "Assassin",
+        "rank" : "1",
+        "deck": [
+            {"name" : "Scratch", "description" : "Discard this card to gain 1 Power.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Scratch", "description" : "Discard this card to gain 1 Power.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Scratch", "description" : "Discard this card to gain 1 Power.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Fake Out", "description" : "If this deals damage, the opponent loses an Action. Only one of the user's Fake Out can be played on a turn.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Fake Out", "description" : "If this deals damage, the opponent loses an Action. Only one of the user's Fake Out can be played on a turn.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Fury Swipes", "description" : "Calculate damage as if attacking twice. You may use another Fury Swipes or Scratch as a Bonus Action. That Fury Swipes can activate another Bonus Action.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Fury Swipes", "description" : "Calculate damage as if attacking twice. You may use another Fury Swipes or Scratch as a Bonus Action. That Fury Swipes can activate another Bonus Action.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Feint", "description" : "Can hit Protected or Guarded allies and remove that status. If this deals damage, move to an adjacent space to the target and the user is Guarded.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "2"},
+            {"name" : "Feint", "description" : "Can hit Protected or Guarded allies and remove that status. If this deals damage, move to an adjacent space to the target and the user is Guarded.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "2"},
+            {"name" : "極: Bonus Payout", "description" : "Cost: 1. Draw cards equal to the number of Meowth cards in the Discard pile.", "type" : "Normal", "category" : "Ranged", "power" : "+1", "range" : "2"}
         ]
     }
 ]
