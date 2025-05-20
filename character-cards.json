@@ -208,15 +208,15 @@
         "deck": [
             {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 speed. If they are at 1 speed already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
             {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 speed. If they are at 1 speed already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
-            {"name" : "Cotton Guard", "description" : "All allies within range gain +2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
-            {"name" : "Cotton Guard", "description" : "All allies within range gain +2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
-            {"name" : "Cotton Guard", "description" : "All allies within range gain +2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
             {"name" : "Helping Hand", "description" : "The target gains +1 Power until the end of your turn.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "1"},
             {"name" : "Helping Hand", "description" : "The target gains +1 Power until the end of your turn.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "1"},
             {"name" : "Fairy Wind", "description" : "Wind move. Deals 1 fixed damage to all enemies in range. The user gains 1 Move. Until the end of your turn, the user's status moves have +1 range.", "type" : "Fairy", "category" : "Ranged", "power" : "-", "range" : "□"},
             {"name" : "Fairy Wind", "description" : "Wind move. Deals 1 fixed damage to all enemies in range. The user gains 1 Move. Until the end of your turn, the user's status moves have +1 range.", "type" : "Fairy", "category" : "Ranged", "power" : "-", "range" : "□"},
             {"name" : "Fairy Wind", "description" : "Wind move. Deals 1 fixed damage to all enemies in range. The user gains 1 Move. Until the end of your turn, the user's status moves have +1 range.", "type" : "Fairy", "category" : "Ranged", "power" : "-", "range" : "□"},
-            {"name" : "極: Fairy Tailwind", "description" : "Cost: 2. Wind move. Double the user's speed. Draw 5 cards.", "type" : "Fairy", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "極: Fairy Tailwind", "description" : "Cost: 2. Wind move. Double the user's speed. Draw 5 cards.", "type" : "Fairy", "category" : "Status", "power" : "-", "range" : "□"}
         ]
     },
     {
@@ -256,7 +256,7 @@
             {"name" : "Thunderbolt", "description" : "The target is Paralyzed.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Thunderbolt", "description" : "The target is Paralyzed.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Thunder", "description" : "", "type" : "Electric", "category" : "Ranged", "power" : "+1", "range" : "3"},
-            {"name" : "極: Supercharged Volt Tackle", "description" : "Cost: 2. Target any unobstructed enemy on the same row and move up to them. Then, Pikachu gains 3 Move. If this damages, the target is Paralyzed.", "type" : "Electric", "category" : "Contact", "power" : "+1", "range" : "|(Row)"}
+            {"name" : "極: Supercharged Volt Tackle", "description" : "Cost: 2. Gain 3 Move. Then, move to the closest adjacent space to the target and deal damage. Ignores Shield. If this damages, the target is Paralyzed.", "type" : "Electric", "category" : "Contact", "power" : "+2", "range" : "4"}
         ]
     },
     {
@@ -274,8 +274,8 @@
             {"name" : "Charge", "description" : "The user gains 1 Shield. Search your deck for an Electric-type card, reveal it, and add it to your hand.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shields.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
             {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shields.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
-            {"name" : "Discharge", "description" : "Remove all Shields from the user. Add the amount removed to damage.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "※(2)"},
-            {"name" : "Discharge", "description" : "Remove all Shields from the user. Add the amount removed to damage.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "※(2)"},
+            {"name" : "Discharge", "description" : "Hits all targets in range. Remove all Shields from the user. Add the amount removed to damage.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "※(2)"},
+            {"name" : "Discharge", "description" : "Hits all targets in range. Remove all Shields from the user. Add the amount removed to damage.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "※(2)"},
             {"name" : "極: Counting Mareep", "description" : "Cost: 2. All enemies within range are Asleep. Mareep heals 6 HP.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "※(1)"}
         ]
     },
@@ -296,7 +296,7 @@
             {"name" : "Volt Switch", "description" : "The user gains 1 Move. If this deals damage, swap positions with an ally.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Volt Switch", "description" : "The user gains 1 Move. If this deals damage, swap positions with an ally.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Volt Switch", "description" : "The user gains 1 Move. If this deals damage, swap positions with an ally.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "極: Solar Charge", "description" : "Cost: 3. Search your deck for up to 3 Electric-type cards, reveal them, and add them to your hand. Discard any number of them; Heliolisk gains Power per discard.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "※(1)"}
+            {"name" : "極: Solar Charge", "description" : "Cost: 3. Search your deck for up to 3 Electric-type cards, reveal them, and add them to your hand. Discard any number of them; Heliolisk gains Power per discard.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"}
         ]
     },
     {
@@ -306,9 +306,9 @@
         "role" : "Assassin",
         "rank" : "6",
         "deck": [
-            {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded this way to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded this way to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Charge", "description" : "Discard cards equal to the user's Move. Add any Electric-type cards discarded this way to your hand. Then, gain 2 Move.", "type" : "Electric", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Stomp", "description" : "Also hits any targets that the user passed through on this turn. The opponent discards cards equal to the number of units damaged.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
