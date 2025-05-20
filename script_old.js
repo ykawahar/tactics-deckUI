@@ -155,6 +155,14 @@ function updateSelectionButtons() {
 }
 
 function updateActionButtons() {
+    const icon = document.getElementById("discardSelectIcon");
+    if (icon) {
+        if (selectedDiscardIndexes.size === discardPile.length && discardPile.length > 0) {
+        icon.className = "fa-solid fa-square-minus";
+        } else {
+        icon.className = "fa-solid fa-square-check";
+        }
+    }
     document.getElementById("discardToHandBtn").disabled = selectedDiscardIndexes.size === 0;
     document.getElementById("discardToDeckBtn").disabled = selectedDiscardIndexes.size === 0;
     document.getElementById("lostToHandBtn").disabled = selectedLostIndexes.size === 0;
@@ -380,7 +388,7 @@ document.getElementById("discardToDeckBtn").addEventListener("click", () => {
     discardPile = keep;
     selectedDiscardIndexes.clear();
     updateUI();
-    showBanner("Sent to deck.", "primary");
+    showBanner("Sent to top of deck.", "primary");
 });
 
 document.getElementById("lostToHandBtn").addEventListener("click", () => {
@@ -400,13 +408,13 @@ document.getElementById("lostToHandBtn").addEventListener("click", () => {
 document.getElementById("lostToDeckBtn").addEventListener("click", () => {
     const keep = [];
     lostPile.forEach((card, i) => {
-        if (selectedLostIndexes.has(i)) drawPile.unshift(card);
+        if (selectedLostIndexes.has(i)) drawPile.push(card);
         else keep.push(card);
     });
     lostPile = keep;
     selectedLostIndexes.clear();
     updateUI();
-    showBanner("Sent to deck.", "primary");
+    showBanner("Sent to bottom of deck.", "primary");
 });
 
 document.getElementById("shuffleBtn").addEventListener("click", shuffleDeck);
@@ -461,6 +469,24 @@ document.getElementById("reshuffleInBtn").addEventListener("click", () => {
 document.getElementById("sortByTypeBtn").addEventListener("click", sortHandByType);
 document.getElementById("sortByCharBtn").addEventListener("click", sortHandByCharacter);
 document.getElementById("sortByDrawBtn").addEventListener("click", sortHandByDrawOrder);
+
+document.getElementById("selectAllDiscardBtn").addEventListener("click", () => {
+  const allSelected = selectedDiscardIndexes.size === discardPile.length;
+  const icon = document.getElementById("discardSelectIcon");
+
+  if (allSelected) {
+    // Deselect all
+    selectedDiscardIndexes.clear();
+    icon.className = "fa-solid fa-square-check";
+  } else {
+    // Select all
+    discardPile.forEach((_, index) => selectedDiscardIndexes.add(index));
+    icon.className = "fa-solid fa-square-minus";
+  }
+
+  updateUI();
+});
+
 
 // --- Initial UI ---
 updateUI();
