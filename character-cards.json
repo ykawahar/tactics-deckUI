@@ -375,6 +375,7 @@
             {"name" : "Fury Swipes", "description" : "Calculate damage as if attacking twice. You may use another Fury Swipes or Scratch as a Bonus Action. That Fury Swipes can activate another Bonus Action.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Feint", "description" : "Can hit Protected or Guarded allies and remove that status. If this deals damage, move to an adjacent space to the target and the user is Guarded.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "2"},
             {"name" : "Feint", "description" : "Can hit Protected or Guarded allies and remove that status. If this deals damage, move to an adjacent space to the target and the user is Guarded.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "2"},
+            {"name" : "Feint", "description" : "Can hit Protected or Guarded allies and remove that status. If this deals damage, move to an adjacent space to the target and the user is Guarded.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "2"},
             {"name" : "極: Bonus Payout", "description" : "Cost: 1. Draw cards equal to the number of Meowth cards in the Discard pile.", "type" : "Normal", "category" : "Ranged", "power" : "+1", "range" : "2"}
         ]
     }

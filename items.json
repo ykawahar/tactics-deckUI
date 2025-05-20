@@ -10,5 +10,5 @@
     { "id": 100009, "name": "Engineer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Put up to 2 Electric-type cards from the discard pile into your hand.", "character":"Trainer" },
     { "id": 100010, "name": "Cyclist", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Ally Electric and Flying types can move 1 extra space.", "character":"Trainer" },
     { "id": 100011, "name": "Camper", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 4 and lower with the Walk trait gain 1 Power.", "character":"Trainer" },
-    { "id": 100011, "name": "Picnicker", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 4 and lower with the Walk trait gain 1 Move.", "character":"Trainer" }
+    { "id": 100012, "name": "Picnicker", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 4 and lower with the Walk trait gain 1 Move.", "character":"Trainer" }
 ]
