@@ -1,15 +1,18 @@
 [
     { "id": 100001, "name": "Potion", "type": "Item", "category": "", "power": "", "range": "", "description": "Heal one of your Pokemon by 2 HP.", "character":"Item" },
     { "id": 100002, "name": "X Speed", "type": "Item", "category": "", "power": "", "range": "", "description": "One Pokemon of choice can move 1 extra space.", "character":"Item" },
-    { "id": 100003, "name": "Firebreather", "type": "Trainer", "category": "", "power": "", "range": "", "description": "The next Fire attack deals +2 damage.", "character":"Trainer" },
-    { "id": 100004, "name": "Burglar", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Ally Fire and Poison types are protected.", "character":"Trainer" },
-    { "id": 100005, "name": "Swimmer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "One ally Swim Pokemon gains 1 Move.", "character":"Trainer" },
-    { "id": 100006, "name": "Sailor", "type": "Trainer", "category": "", "power": "", "range": "", "description": "One ally Water Pokemon gains 1 Power until the end of your turn.", "character":"Trainer" },
-    { "id": 100007, "name": "Aroma Lady", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Removes status conditions from all allies. Put up to 2 Grass-type Status cards from the discard pile into your hand.", "character":"Trainer" },
-    { "id": 100008, "name": "Lass", "type": "Trainer", "category": "", "power": "", "range": "", "description": "All ally Grass, Fairy, and Normal types of Rank 3 and lower gain 2 Shield.", "character":"Trainer" },
-    { "id": 100009, "name": "Engineer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Put up to 2 Electric-type cards from the discard pile into your hand.", "character":"Trainer" },
-    { "id": 100010, "name": "Cyclist", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Ally Electric and Flying types can move 1 extra space.", "character":"Trainer" },
-    { "id": 100011, "name": "Camper", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 4 and lower with the Walk trait gain 1 Power.", "character":"Trainer" },
-    { "id": 100012, "name": "Picnicker", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 4 and lower with the Walk trait gain 1 Move.", "character":"Trainer" },
-    { "id": 100013, "name": "Tamer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 5 and above gain 1 Power and take 3 damage.", "character":"Trainer" }
+    { "id": 100003, "name": "Full Restore", "type": "Item", "category": "", "power": "", "range": "", "description": "Remove all negative Status conditions from one of your Pokemon.", "character":"Item" },
+    { "id": 100004, "name": "X Attack", "type": "Item", "category": "", "power": "", "range": "", "description": "The next attack deals +1 damage.", "character":"Item" },
+
+    { "id": 200001, "name": "Firebreather", "type": "Trainer", "category": "", "power": "", "range": "", "description": "The next Fire attack deals +2 damage.", "character":"Trainer" },
+    { "id": 200002, "name": "Burglar", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Ally Fire and Poison types are protected.", "character":"Trainer" },
+    { "id": 200003, "name": "Swimmer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "One ally Swim Pokemon gains 1 Move.", "character":"Trainer" },
+    { "id": 200004, "name": "Sailor", "type": "Trainer", "category": "", "power": "", "range": "", "description": "One ally Water Pokemon gains 1 Power until the end of your turn.", "character":"Trainer" },
+    { "id": 200005, "name": "Aroma Lady", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Removes status conditions from all allies. Put up to 2 Grass-type Status cards from the discard pile into your hand.", "character":"Trainer" },
+    { "id": 200006, "name": "Lass", "type": "Trainer", "category": "", "power": "", "range": "", "description": "All ally Grass, Fairy, and Normal types of Rank 3 and lower gain 2 Shield.", "character":"Trainer" },
+    { "id": 200007, "name": "Engineer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Put up to 2 Electric-type cards from the discard pile into your hand.", "character":"Trainer" },
+    { "id": 200008, "name": "Cyclist", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Ally Electric and Flying types can move 1 extra space.", "character":"Trainer" },
+    { "id": 200009, "name": "Camper", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 4 and lower with the Walk trait gain 1 Power.", "character":"Trainer" },
+    { "id": 200010, "name": "Picnicker", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 4 and lower with the Walk trait gain 1 Move.", "character":"Trainer" },
+    { "id": 200011, "name": "Tamer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 5 and above gain 1 Power and take 3 damage.", "character":"Trainer" }
 ]

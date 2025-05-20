@@ -8,12 +8,12 @@
         "deck": [
             {"name" : "Air Slash", "description" : "Slicing Move. If the attack deals damage to an enemy, the opponent discards a card from their hand.", "type" : "Flying", "category" : "Ranged", "power" : "+0", "range" : "1"},
             {"name" : "Air Slash", "description" : "Slicing Move. If the attack deals damage to an enemy, the opponent discards a card from their hand.", "type" : "Flying", "category" : "Ranged", "power" : "+0", "range" : "1"},
-            {"name" : "Flamethrower", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
-            {"name" : "Flamethrower", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
-            {"name" : "Flamethrower", "description" : "Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
-            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
-            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
-            {"name" : "Heat Wave", "description" : "Wind move. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
+            {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
+            {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
+            {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
+            {"name" : "Heat Wave", "description" : "Wind move. Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
+            {"name" : "Heat Wave", "description" : "Wind move. Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
+            {"name" : "Heat Wave", "description" : "Wind move. Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
             {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
             {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
             {"name" : "極: Inferno Blast Burn", "description" : "Cost: 3. Hits the target and all enemies adjacent to the target. Affected targets take +1 damage from Fire attacks until the end of this turn. <br> You cannot play any other Charizard card on this turn.", "type" : "Fire", "category" : "Ranged", "power" : "+3", "range" : "2+"}
@@ -54,8 +54,8 @@
             {"name" : "Flame Wheel", "description" : "Thaws if frozen. If the user moved on this turn, the user gains 1 Move. Otherwise, the user gains 1 Shield.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Flame Wheel", "description" : "Thaws if frozen. If the user moved on this turn, the user gains 1 Move. Otherwise, the user gains 1 Shield.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Flame Wheel", "description" : "Thaws if frozen. If the user moved on this turn, the user gains 1 Move. Otherwise, the user gains 1 Shield.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Fire Fang", "description" : "If this deals damage, the target player must discard the top card of their deck (Burn). If the user has more Move than the target, the target discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Fire Fang", "description" : "If this deals damage, the target player must discard the top card of their deck (Burn). If the user has more Move than the target, the target discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Fire Fang", "description" : "Hit targets are Burned. If the user has more Move than the target, the target discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Fire Fang", "description" : "Hit targets are Burned. If the user has more Move than the target, the target discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "極: Loyal Blitz", "description" : "Cost: 3. Growlithe moves to an open space adjacent to any other chosen ally and takes 2 damage. Until the end of your turn, every tie that ally deals damage, Growlithe deals an additional 2 damage (with the properties of this card).", "type" : "Fire", "category" : "Contact", "power" : "-", "range" : "-"}
         ]
     },
@@ -96,7 +96,7 @@
             {"name" : "Aqua Tail", "description" : "The user moves one space away from the target.", "type" : "Water", "category" : "Contact", "power" : "+1", "range" : "1"},
             {"name" : "Aqua Tail", "description" : "The user moves one space away from the target.", "type" : "Water", "category" : "Contact", "power" : "+1", "range" : "1"},
             {"name" : "Aqua Tail", "description" : "The user moves one space away from the target.", "type" : "Water", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "極: Thrashing Gator Cyclone", "description" : "Cost: 3. The opponent must discard their hand into their Lost pile. Then, they draw 5 cards. If Crunch was used on the target by Feraligatr on this turn, the target draws 2 fewer cards.", "type" : "Water", "category" : "Contact", "power" : "+2", "range" : "1"}
+            {"name" : "極: Thrashing Gator Cyclone", "description" : "Cost: 3. Both players discard their hand. You draw 7 cards, and the opponent draws 5 cards. If Crunch was used on this turn, they draw 3 cards instead.", "type" : "Water", "category" : "Contact", "power" : "+2", "range" : "1"}
         ]
     },
     {
@@ -170,13 +170,13 @@
             {"name" : "Noble Roar", "description" : "Sound-based. -1 Power to all enemies.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Grassy Glide", "description" : "Can move up to 2 spaces before attacking. Draw a card if used on Grassy Terrain.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Grassy Glide", "description" : "Can move up to 2 spaces before attacking. Draw a card if used on Grassy Terrain.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
-            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
-            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
-            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Drum Beating", "description" : "The target is Rooted. Any consecutive Drum Beating deals +1 damage from the last.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Wood Hammer", "description" : "The user takes half of the damage dealt (rounded up). The user is Rooted until the end of the turn.", "type" : "Grass", "category" : "Contact", "power" : "+2", "range" : "1"},
             {"name" : "Wood Hammer", "description" : "The user takes half of the damage dealt (rounded up). The user is Rooted until the end of the turn.", "type" : "Grass", "category" : "Contact", "power" : "+2", "range" : "1"},
-            {"name" : "極: Steady Drumming", "description" : "Cost: 2. Until the end of your turn, Rillaboom gains Power after every Rillaboom's <em> Drum Beating <em> used. You may put up to 2 Rillaboom's Drum Beating from the discard pile back into your hand.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "極: Steady Drumming", "description" : "Cost: 2. Until the end of your turn, Drum Beating has range 2. You may put up to 2 Rillaboom's Drum Beating from the discard pile back into your hand.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "-"}
         ]
     },
     {
@@ -332,8 +332,8 @@
             {"name" : "Agility", "description" : "The user gains 2 Move.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Agility", "description" : "The user gains 2 Move.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Agility", "description" : "The user gains 2 Move.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Baton Pass", "description" : "Transfer all stat increases and status effects to any other ally. Swap positions with that ally.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Baton Pass", "description" : "Transfer all stat increases and status effects to any other ally. Swap positions with that ally.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Baton Pass", "description" : "Transfer all stat increases and status effects on the user to an adjacent ally. Swap positions with that ally.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "1"},
+            {"name" : "Baton Pass", "description" : "Transfer all stat increases and status effects on the user to an adjacent ally. Swap positions with that ally.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "1"},
             {"name" : "Quick Attack", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Quick Attack", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "極: Accumula Walk", "description" : "Cost: 3. All allies can move up to their Move.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"}
