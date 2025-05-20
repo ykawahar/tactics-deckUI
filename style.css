@@ -1,76 +1,122 @@
 .card-type-normal {
-    background-color: #d9d9d9;
-    border-color: #000000;
-  }
-  
-  .card-type-flying {
-    background-color: #c8e3fb;
-    border-color: #000000;
-  }
-  
-  .card-type-fire {
-    background-color: #ffa5a7;
-    border-color: #000000;
-  }
-  
-  .card-type-water {
-    background-color: #a1ccfe;
-    border-color: #000000;
-  }
-  
-  .card-type-dark {
-    background-color: #bab3b2;
-    border-color: #000000;
-  }
+  background-color: #d9d9d9;
+  border-color: #000000;
+}
 
-  .card-type-bug {
-    background-color: #d1da9c;
-    border-color: #000000;
-  }
+.card-type-electric {
+  background-color: #ffe68d;
+  border-color: #000000;
+}
 
-  .card-type-item {
-    background-color: #fff8e1;
-    border-color: #a67c00;
-  }
-  
-  .card-type-trainer {
-    background-color: #f0f0f0;
-    border-color: #888;
-  }
-  
-  #handContainer {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-  }
+.card-type-flying {
+  background-color: #c8e3fb;
+  border-color: #000000;
+}
 
-  .card-hand {
-    width: 200px;
-    aspect-ratio: 5 / 7;
-    /* display: flex; */
-    /* flex-direction: column;
+.card-type-fire {
+  background-color: #ffa5a7;
+  border-color: #000000;
+}
+
+.card-type-dragon {
+  background-color: #b9bef8;
+  border-color: #000000;
+}
+
+.card-type-ground {
+  background-color: #d8b8a3;
+  border-color: #000000;
+}
+
+.card-type-dark {
+  background-color: #bab3b2;
+  border-color: #000000;
+}
+
+.card-type-bug {
+  background-color: #d1da9c;
+  border-color: #000000;
+}
+
+.card-type-ice {
+  background-color: #a1f1ff;
+  border-color: #000000;
+}
+
+.card-type-water {
+  background-color: #a1ccfd;
+  border-color: #000000;
+}
+
+.card-type-grass {
+  background-color: #b6daad;
+  border-color: #000000;
+}
+
+.card-type-psychic {
+  background-color: #ffafca;
+  border-color: #000000;
+}
+
+.card-type-poison {
+  background-color: #d4b5eb;
+  border-color: #000000;
+}
+
+.card-type-fairy {
+  background-color: #fac7f9;
+  border-color: #000000;
+}
+
+.card-type-steel {
+  background-color: #c0dae2;
+  border-color: #000000;
+}
+
+
+.card-type-item {
+  background-color: #fff8e1;
+  border-color: #a67c00;
+}
+
+.card-type-trainer {
+  background-color: #f0f0f0;
+  border-color: #888;
+}
+
+#handContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.card-hand {
+  width: 200px;
+  aspect-ratio: 5 / 7;
+  /* display: flex; */
+  /* flex-direction: column;
     justify-content: space-between; */
-    /* padding: 0.5rem; */
-    font-size: 0.85rem;
-    overflow: hidden;
-  }
+  /* padding: 0.5rem; */
+  font-size: 0.85rem;
+  overflow: hidden;
+}
 
-  .card-hand .card-description {
-    font-size: 0.8em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-top: 0.25rem;
-    margin-bottom: 2rem;
-  }
+.card-hand .card-description {
+  font-size: 0.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
+}
 
-  .card-footer {
-    position: absolute;
-    bottom: 0.5rem;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 0.75rem;
-  }
+.card-footer {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+}
 
 .debug-border {
   border: 1px dashed red;
