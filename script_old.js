@@ -424,10 +424,16 @@ document.getElementById("searchDeckBtn").addEventListener("click", () => {
     showBanner("Browsing deck...", "info");
 });
 
-document.getElementById("closeDeckSearchBtn").addEventListener("click", () => {
+document.getElementById("closeShuffleDeckSearchBtn").addEventListener("click", () => {
     document.getElementById("deckSearchContainer").classList.add("d-none");
     selectedDeckIndexes.clear();
     drawPile = shuffle(drawPile);
+    updateUI();
+});
+
+document.getElementById("closeDeckSearchBtn").addEventListener("click", () => {
+    document.getElementById("deckSearchContainer").classList.add("d-none");
+    selectedDeckIndexes.clear();
     updateUI();
 });
 
