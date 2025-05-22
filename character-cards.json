@@ -56,7 +56,7 @@
             {"name" : "Flame Wheel", "description" : "Thaws if frozen. If the user moved on this turn, the user gains 1 Move. Otherwise, the user gains 1 Shield.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Fire Fang", "description" : "Hit targets are Burned. If the user has more Move than the target, the target discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Fire Fang", "description" : "Hit targets are Burned. If the user has more Move than the target, the target discards a card from their hand instead.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "極: Loyal Blitz", "description" : "Cost: 3. Growlithe moves to an open space adjacent to any other chosen ally and takes 2 damage. Until the end of your turn, every tie that ally deals damage, Growlithe deals an additional 2 damage (with the properties of this card).", "type" : "Fire", "category" : "Contact", "power" : "-", "range" : "-"}
+            {"name" : "極: Loyal Blitz", "description" : "Cost: 3. Growlithe moves to an open space adjacent to any other chosen ally and takes 2 damage. Until the end of your turn, every time that ally deals damage, Growlithe deals an additional 2 damage (with the properties of this card).", "type" : "Fire", "category" : "Contact", "power" : "-", "range" : "-"}
         ]
     },
     {
@@ -296,7 +296,7 @@
             {"name" : "Volt Switch", "description" : "The user gains 1 Move. If this deals damage, swap positions with an ally.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Volt Switch", "description" : "The user gains 1 Move. If this deals damage, swap positions with an ally.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Volt Switch", "description" : "The user gains 1 Move. If this deals damage, swap positions with an ally.", "type" : "Electric", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "極: Solar Charge", "description" : "Cost: 3. Search your deck for up to 3 Electric-type cards, reveal them, and add them to your hand. Discard any number of them; Heliolisk gains Power per discard.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "極: Solar Charge", "description" : "Cost: 3. Search your deck for up to 3 Electric-type cards, reveal them, and add them to your hand. If Sunny, search up to 5.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"}
         ]
     },
     {
