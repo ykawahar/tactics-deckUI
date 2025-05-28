@@ -14,8 +14,8 @@
             {"name" : "Heat Wave", "description" : "Wind move. Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
             {"name" : "Heat Wave", "description" : "Wind move. Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
             {"name" : "Heat Wave", "description" : "Wind move. Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "ー(3)"},
-            {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
-            {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
+            {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range. Until the end of your turn, affected targets take +1 damage from Fire attacks.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
+            {"name" : "Fire Blast", "description" : "Discard a card into the Lost pile to play this card. Hits all Pokemon in range. Until the end of your turn, affected targets take +1 damage from Fire attacks.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "大"},
             {"name" : "極: Inferno Blast Burn", "description" : "Cost: 3. Hits the target and all enemies adjacent to the target. Affected targets take +1 damage from Fire attacks until the end of this turn. <br> You cannot play any other Charizard card on this turn.", "type" : "Fire", "category" : "Ranged", "power" : "+3", "range" : "2+"}
         ]
     },
@@ -96,7 +96,7 @@
             {"name" : "Aqua Tail", "description" : "The user moves one space away from the target.", "type" : "Water", "category" : "Contact", "power" : "+1", "range" : "1"},
             {"name" : "Aqua Tail", "description" : "The user moves one space away from the target.", "type" : "Water", "category" : "Contact", "power" : "+1", "range" : "1"},
             {"name" : "Aqua Tail", "description" : "The user moves one space away from the target.", "type" : "Water", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "極: Thrashing Gator Cyclone", "description" : "Cost: 3. Both players discard their hand. You draw 7 cards, and the opponent draws 5 cards. If Crunch was used on this turn, they draw 3 cards instead.", "type" : "Water", "category" : "Contact", "power" : "+2", "range" : "1"}
+            {"name" : "極: Thrashing Gator Cyclone", "description" : "Cost: 3. Both players Lose their hand. You draw 7 cards, and the opponent draws 5 cards. If Crunch was used on this turn, they draw 3 cards instead.", "type" : "Water", "category" : "Contact", "power" : "+2", "range" : "1"}
         ]
     },
     {
@@ -106,7 +106,7 @@
         "role" : "Fighter",
         "rank" : "3",
         "deck": [
-            {"name" : "Swords Dance", "description" : "Reveal the top 5 cards of your deck. Put any of the user's cards revealed into your hand. Shuffle the rest back into your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Swords Dance", "description" : "Search for one of the user's Slicing moves from your deck, reveal it, and add it to your hand. Shuffle your deck afterwards.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Aqua Jet", "description" : "Can move an extra space before or after attacking. Draw a card.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Fury Cutter", "description" : "Slicing-move. Deal +1 damage for each of Dewott's Fury Cutter or Razor Shell in the discard pile (including cards used previously on this turn).", "type" : "Bug", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Fury Cutter", "description" : "Slicing-move. Deal +1 damage for each of Dewott's Fury Cutter or Razor Shell in the discard pile (including cards used previously on this turn).", "type" : "Bug", "category" : "Contact", "power" : "+0", "range" : "1"},
@@ -186,8 +186,8 @@
         "role" : "Tank",
         "rank" : "2",
         "deck": [
-            {"name" : "Growth", "description" : "Gain 1 Power.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Growth", "description" : "Gain 1 Power.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Growth", "description" : "Gain 1 Power. Gain 2 instead when Sunny.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Growth", "description" : "Gain 1 Power. Gain 2 instead when Sunny.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Leech Seed", "description" : "The target is Rooted. Transfer 1 HP from the target to the user, or 2 if Growth was used on this turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Leech Seed", "description" : "The target is Rooted. Transfer 1 HP from the target to the user, or 2 if Growth was used on this turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Milk Drink", "description" : "The user heals 3 HP or transfers 2 HP from the user to an adjacent ally. The user must not faint from the transfer.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
@@ -226,10 +226,10 @@
         "role" : "Mage",
         "rank" : "2",
         "deck": [
-            {"name" : "Poison Powder", "description" : "The target is Poisoned. If ally target, they instead gain 1 Power.", "type" : "Poison", "category" : "Status", "power" : "-", "range" : "2"},
-            {"name" : "Poison Powder", "description" : "The target is Poisoned. If ally target, they instead gain 1 Power.", "type" : "Poison", "category" : "Status", "power" : "-", "range" : "2"},
-            {"name" : "Sleep Powder", "description" : "The target is Asleep. If ally target, they instead heal 1 HP.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
-            {"name" : "Sleep Powder", "description" : "The target is Asleep. If ally target, they instead heal 1 HP.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Poison Powder", "description" : "Powder move. The target is Poisoned. If ally target, they instead gain 1 Power.", "type" : "Poison", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Poison Powder", "description" : "Powder move. The target is Poisoned. If ally target, they instead gain 1 Power.", "type" : "Poison", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Sleep Powder", "description" : "Powder move. The target is Asleep. If ally target, they instead heal 1 HP.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Sleep Powder", "description" : "Powder move. The target is Asleep. If ally target, they instead heal 1 HP.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Vine Whip", "description" : "Can move the target one space. Allies take no damage.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
             {"name" : "Vine Whip", "description" : "Can move the target one space. Allies take no damage.", "type" : "Grass", "category" : "Contact", "power" : "+0", "range" : "2"},
             {"name" : "Razor Leaf", "description" : "Slicing move. Hits all enemies in range. If multiple enemies are hit, ignore Shields.", "type" : "Grass", "category" : "Ranged", "power" : "+0", "range" : "|(4)"},
@@ -377,6 +377,66 @@
             {"name" : "Feint", "description" : "Can hit Protected or Guarded allies and remove that status. If this deals damage, move to an adjacent space to the target and the user is Guarded.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "2"},
             {"name" : "Feint", "description" : "Can hit Protected or Guarded allies and remove that status. If this deals damage, move to an adjacent space to the target and the user is Guarded.", "type" : "Normal", "category" : "Contact", "power" : "+1", "range" : "2"},
             {"name" : "極: Bonus Payout", "description" : "Cost: 1. Draw cards equal to the number of Meowth cards in the Discard pile.", "type" : "Normal", "category" : "Ranged", "power" : "+1", "range" : "2"}
+        ]
+    },
+    {
+        "id" : 845,
+        "name" : "Cramorant",
+        "type" : "Flying/Water",
+        "role" : "Assassin",
+        "rank" : "5",
+        "deck": [
+            {"name" : "Swallow", "description" : "Discard any number of the user's Stockpiled cards. The user heals the amount discarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Swallow", "description" : "Discard any number of the user's Stockpiled cards. The user heals the amount discarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking and gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking and gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking and gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking and gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Surf", "description" : "The user gains 1 Move. Hits all targets in range. Can hit Protected (Water) targets.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "=(3)"},
+            {"name" : "Surf", "description" : "The user gains 1 Move. Hits all targets in range. Can hit Protected (Water) targets.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "=(3)"},
+            {"name" : "Surf", "description" : "The user gains 1 Move. Hits all targets in range. Can hit Protected (Water) targets.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "=(3)"},
+            {"name" : "Fly", "description" : "The user can move up to its Move stat before attacking and gain Protected (Flying). Can hit Protected (Flying) targets. Protected status is lost if the user makes another action.", "type" : "Flying", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "極: Cram-o-matic Barrage", "description" : "Cost: 3. For every Cramorant card in the Stockpile, deal 1 damage to the nearest enemy in range. When Cramorant is at 3 HP or less, the target is also paralyzed. If the first target faints before you run out of stock, target the next nearest enemy in range. Move all stockpiled cards into the discard.", "type" : "Water", "category" : "Ranged", "power" : "-", "range" : "4"}
+        ]
+    },
+    {
+        "id" : 580,
+        "name" : "Ducklett",
+        "type" : "Water/Flying",
+        "role" : "Tank",
+        "rank" : "2",
+        "deck": [
+            {"name" : "Water Sport", "description" : "Turns the field within Range 2 of the user to Aquatic. Search for up to 3 Water cards from your deck, reveal them, and put them in your hand. Shuffle your deck afterwards. The user gains 1 Shield. Swim trait Pokemon have double movement when starting on Aquatic terrain.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Water Sport", "description" : "Turns the field within Range 2 of the user to Aquatic. Search for up to 3 Water cards from your deck, reveal them, and put them in your hand. Shuffle your deck afterwards. The user gains 1 Shield. Swim trait Pokemon have double movement when starting on Aquatic terrain.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Feather Dance", "description" : "The target's Attack range becomes 1 until the end of their next turn. The target is Rooted.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Feather Dance", "description" : "The target's Attack range becomes 1 until the end of their next turn. The target is Rooted.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Feather Dance", "description" : "The target's Attack range becomes 1 until the end of their next turn. The target is Rooted.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Aqua Ring", "description" : "Until the end of your turn, the user heals 1 HP for every Action it makes (including this action). If at full HP, gain Shield instead.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Aqua Ring", "description" : "Until the end of your turn, the user heals 1 HP for every Action it makes (including this action). If at full HP, gain Shield instead.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Aqua Ring", "description" : "Until the end of your turn, the user heals 1 HP for every Action it makes (including this action). If at full HP, gain Shield instead.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Dive", "description" : "Before attacking, the user can move to any ally-occupied space and move that ally to an adjacent space. The user is Protected (Water) and gains 1 Shield.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dive", "description" : "Before attacking, the user can move to any ally-occupied space and move that ally to an adjacent space. The user is Protected (Water) and gains 1 Shield.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "極: Make Way for the Ducklett", "description" : "Cost: 2. Ducklett and adjacent allies gain 3 Shield and is Protected.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 278,
+        "name" : "Wingull",
+        "type" : "Water/Flying",
+        "role" : "Support",
+        "rank" : "1",
+        "deck": [
+            {"name" : "Rain Dance", "description" : "Discard 5 cards from the deck and add any Water type cards to your hand. The weather is Raining.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Rain Dance", "description" : "Discard 5 cards from the deck and add any Water type cards to your hand. The weather is Raining.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Tailwind", "description" : "Wind move. Draw 3 cards. Alles in range gain 1 Move.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "□"},
+            {"name" : "Tailwind", "description" : "Wind move. Draw 3 cards. Alles in range gain 1 Move.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "□"},
+            {"name" : "Tailwind", "description" : "Wind move. Draw 3 cards. Alles in range gain 1 Move.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "□"},
+            {"name" : "Water Pulse", "description" : "The target is Confused.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Water Pulse", "description" : "The target is Confused.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Pluck", "description" : "Put a Water type card from the discard pile into your hand.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Pluck", "description" : "Put a Water type card from the discard pile into your hand.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Pluck", "description" : "Put a Water type card from the discard pile into your hand.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "極: Soaring Updraft", "description" : "Cost: 3. All allies gain 2 Move.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"}
         ]
     }
 ]
