@@ -386,17 +386,17 @@
         "role" : "Assassin",
         "rank" : "5",
         "deck": [
-            {"name" : "Swallow", "description" : "Discard any number of the user's Stockpiled cards. The user heals the amount discarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Swallow", "description" : "Discard any number of the user's Stockpiled cards. The user heals the amount discarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking and gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking and gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking and gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking and gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Swallow", "description" : "Remove any number of the user's Shields. The user heals the amount discarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Swallow", "description" : "Remove any number of the user's Shields. The user heals the amount discarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Surf", "description" : "The user gains 1 Move. Hits all targets in range. Can hit Protected (Water) targets.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "=(3)"},
             {"name" : "Surf", "description" : "The user gains 1 Move. Hits all targets in range. Can hit Protected (Water) targets.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "=(3)"},
             {"name" : "Surf", "description" : "The user gains 1 Move. Hits all targets in range. Can hit Protected (Water) targets.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "=(3)"},
-            {"name" : "Fly", "description" : "The user can move up to its Move stat before attacking and gain Protected (Flying). Can hit Protected (Flying) targets. Protected status is lost if the user makes another action.", "type" : "Flying", "category" : "Contact", "power" : "+1", "range" : "1"},
-            {"name" : "極: Cram-o-matic Barrage", "description" : "Cost: 3. For every Cramorant card in the Stockpile, deal 1 damage to the nearest enemy in range. When Cramorant is at 3 HP or less, the target is also paralyzed. If the first target faints before you run out of stock, target the next nearest enemy in range. Move all stockpiled cards into the discard.", "type" : "Water", "category" : "Ranged", "power" : "-", "range" : "4"}
+            {"name" : "Fly", "description" : "The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Flying). Can hit Protected (Flying) targets. Protected status is lost if the user makes another action.", "type" : "Flying", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "極: Cram-o-matic Barrage", "description" : "Cost: 3. Each Water Cramorant card in the discard pile counts towards 2 damage to the nearest enemy. If Cramorant has no Shields, the target is also paralyzed. If the first target faints and unused cards remain, continue dealing damage to the next nearest enemy. Damage cannot be split among equally distant enemies.", "type" : "Water", "category" : "Ranged", "power" : "-", "range" : "4"}
         ]
     },
     {
@@ -406,17 +406,17 @@
         "role" : "Tank",
         "rank" : "2",
         "deck": [
-            {"name" : "Water Sport", "description" : "Turns the field within Range 2 of the user to Aquatic. Search for up to 3 Water cards from your deck, reveal them, and put them in your hand. Shuffle your deck afterwards. The user gains 1 Shield. Swim trait Pokemon have double movement when starting on Aquatic terrain.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Water Sport", "description" : "Turns the field within Range 2 of the user to Aquatic. Search for up to 3 Water cards from your deck, reveal them, and put them in your hand. Shuffle your deck afterwards. The user gains 1 Shield. Swim trait Pokemon have double movement when starting on Aquatic terrain.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Water Sport", "description" : "Water-type allies in range gain 3 Shield.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "※(2)"},
+            {"name" : "Water Sport", "description" : "Water-type allies in range gain 3 Shield.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "※(2)"},
             {"name" : "Feather Dance", "description" : "The target's Attack range becomes 1 until the end of their next turn. The target is Rooted.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Feather Dance", "description" : "The target's Attack range becomes 1 until the end of their next turn. The target is Rooted.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Feather Dance", "description" : "The target's Attack range becomes 1 until the end of their next turn. The target is Rooted.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Aqua Ring", "description" : "Until the end of your turn, the user heals 1 HP for every Action it makes (including this action). If at full HP, gain Shield instead.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Aqua Ring", "description" : "Until the end of your turn, the user heals 1 HP for every Action it makes (including this action). If at full HP, gain Shield instead.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Aqua Ring", "description" : "Until the end of your turn, the user heals 1 HP for every Action it makes (including this action). If at full HP, gain Shield instead.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Dive", "description" : "Before attacking, the user can move to any ally-occupied space and move that ally to an adjacent space. The user is Protected (Water) and gains 1 Shield.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "Dive", "description" : "Before attacking, the user can move to any ally-occupied space and move that ally to an adjacent space. The user is Protected (Water) and gains 1 Shield.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "極: Make Way for the Ducklett", "description" : "Cost: 2. Ducklett and adjacent allies gain 3 Shield and is Protected.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "Dive", "description" : "Before attacking, the user can move to any ally-occupied space and move that ally to an adjacent space. Instead of dealing damage, the user can gain Protected (Water).", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dive", "description" : "Before attacking, the user can move to any ally-occupied space and move that ally to an adjacent space. Instead of dealing damage, the user can gain Protected (Water).", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "極: Make Way for the Ducklett", "description" : "Cost: 2. Ducklett and allies directly in a line with them gain Shield equal to the number of aligned allies, and become Protected.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "ー"}
         ]
     },
     {
@@ -426,11 +426,11 @@
         "role" : "Support",
         "rank" : "1",
         "deck": [
-            {"name" : "Rain Dance", "description" : "Discard 5 cards from the deck and add any Water type cards to your hand. The weather is Raining.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Rain Dance", "description" : "Discard 5 cards from the deck and add any Water type cards to your hand. The weather is Raining.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Tailwind", "description" : "Wind move. Draw 3 cards. Alles in range gain 1 Move.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "□"},
-            {"name" : "Tailwind", "description" : "Wind move. Draw 3 cards. Alles in range gain 1 Move.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "□"},
-            {"name" : "Tailwind", "description" : "Wind move. Draw 3 cards. Alles in range gain 1 Move.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "□"},
+            {"name" : "Rain Dance", "description" : "The weather is Raining. Each player may discard 5 cards from the deck and add any Water type cards revealed to their hand.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Rain Dance", "description" : "The weather is Raining. Each player may discard 5 cards from the deck and add any Water type cards revealed to their hand.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Tailwind", "description" : "Wind move. Alles in range gain 1 Move. Draw a card for every Flight-trait ally on your team (including defeated allies).", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "□"},
+            {"name" : "Tailwind", "description" : "Wind move. Alles in range gain 1 Move. Draw a card for every Flight-trait ally on your team (including defeated allies).", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "□"},
+            {"name" : "Tailwind", "description" : "Wind move. Alles in range gain 1 Move. Draw a card for every Flight-trait ally on your team (including defeated allies).", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "□"},
             {"name" : "Water Pulse", "description" : "The target is Confused.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Water Pulse", "description" : "The target is Confused.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Pluck", "description" : "Put a Water type card from the discard pile into your hand.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "1"},
