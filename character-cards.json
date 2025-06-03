@@ -386,8 +386,8 @@
         "role" : "Assassin",
         "rank" : "5",
         "deck": [
-            {"name" : "Swallow", "description" : "Remove any number of the user's Shields. The user heals the amount discarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Swallow", "description" : "Remove any number of the user's Shields. The user heals the amount discarded.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Stockpile", "description" : "Put one of the user's Action cards from the discard pile into your hand.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Stockpile", "description" : "Put one of the user's Action cards from the discard pile into your hand.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Dive", "description" : "The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Water). Can hit Protected (Water) targets. Protected status is lost if the user makes another action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
@@ -416,7 +416,7 @@
             {"name" : "Aqua Ring", "description" : "Until the end of your turn, the user heals 1 HP for every Action it makes (including this action). If at full HP, gain Shield instead.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Dive", "description" : "Before attacking, the user can move to any ally-occupied space and move that ally to an adjacent space. Instead of dealing damage, the user can gain Protected (Water).", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Dive", "description" : "Before attacking, the user can move to any ally-occupied space and move that ally to an adjacent space. Instead of dealing damage, the user can gain Protected (Water).", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "極: Make Way for the Ducklett", "description" : "Cost: 2. Ducklett and allies directly in a line with them gain Shield equal to the number of aligned allies, and become Protected.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "ー"}
+            {"name" : "極: Make Way for the Ducklett", "description" : "Cost: 2. Ducklett and allies aligned in a straight line gain Shield equal to the number of aligned allies, and become Protected.", "type" : "Water", "category" : "Status", "power" : "-", "range" : "ー"}
         ]
     },
     {
@@ -437,6 +437,66 @@
             {"name" : "Pluck", "description" : "Put a Water type card from the discard pile into your hand.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Pluck", "description" : "Put a Water type card from the discard pile into your hand.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "極: Soaring Updraft", "description" : "Cost: 3. All allies gain 2 Move.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 279,
+        "name" : "Pelipper",
+        "type" : "Water/Flying",
+        "role" : "Support",
+        "rank" : "4",
+        "deck": [
+            {"name" : "Stockpile", "description" : "Shuffle up to 3 cards from the Discard pile back into your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Stockpile", "description" : "Shuffle up to 3 cards from the Discard pile back into your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Stockpile", "description" : "Shuffle up to 3 cards from the Discard pile back into your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Fly", "description" : "Pick up an adjacent ally. Move up to 1 + the user's Move. Place the ally in an adjacent space. The user and the ally gain Protected (Flying) unless they take another action.", "type" : "Flying", "category" : "Physical", "power" : "-", "range" : "-"},
+            {"name" : "Fly", "description" : "Pick up an adjacent ally. Move up to 1 + the user's Move. Place the ally in an adjacent space. The user and the ally gain Protected (Flying) unless they take another action.", "type" : "Flying", "category" : "Physical", "power" : "-", "range" : "-"},
+            {"name" : "Fly", "description" : "Pick up an adjacent ally. Move up to 1 + the user's Move. Place the ally in an adjacent space. The user and the ally gain Protected (Flying) unless they take another action.", "type" : "Flying", "category" : "Physical", "power" : "-", "range" : "-"},
+            {"name" : "Hydro Pump", "description" : "Hits all targets within range. Allies in range gain 1 Shield. This has +1 Power if Raining.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "|(2)"},
+            {"name" : "Hydro Pump", "description" : "Hits all targets within range. Allies in range gain 1 Shield. This has +1 Power if Raining.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "|(2)"},
+            {"name" : "Hurricane", "description" : "The target is Confused. Can hit Protected (Flying) targets. If Raining, hits Guarded targets. This has +0 Power if Sunny.", "type" : "Flying", "category" : "Ranged", "power" : "+1", "range" : "2"},
+            {"name" : "Hurricane", "description" : "The target is Confused. Can hit Protected (Flying) targets. If Raining, hits Guarded targets. This has +0 Power if Sunny.", "type" : "Flying", "category" : "Ranged", "power" : "+1", "range" : "2"},
+            {"name" : "極: Air Mail", "description" : "Cost: 3. Search for up to 3 Item cards from your deck, reveal them, and add them to your hand. Shuffle your deck afterwards.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 38,
+        "name" : "Ninetales",
+        "type" : "Fire",
+        "role" : "Mage",
+        "rank" : "6",
+        "deck": [
+            {"name" : "Will-O-Wisp", "description" : "The opponent discards the top card of their deck to the Lost pile. The user places a wisp on the targeted space. Enemies within Range 2 of the wisp are Taunted to that space.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Will-O-Wisp", "description" : "The opponent discards the top card of their deck to the Lost pile. The user places a wisp on the targeted space. Enemies within Range 2 of the wisp are Taunted to that space.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Imprison", "description" : "On their next turn, the opponent cannot make Actions with the target's Action cards. The target's ability has no effect until the beginning of your next turn.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Imprison", "description" : "On their next turn, the opponent cannot make Actions with the target's Action cards. The target's ability has no effect until the beginning of your next turn.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Extrasensory", "description" : "The opoonent must discard a card. Move the target one space.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Extrasensory", "description" : "The opoonent must discard a card. Move the target one space.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Extrasensory", "description" : "The opoonent must discard a card. Move the target one space.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
+            {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
+            {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
+            {"name" : "極: Nine-fold Energy", "description" : "Cost: 3. Lose the cost for this card. Draw 9 cards.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 655,
+        "name" : "Delphox",
+        "type" : "Fire/Psychic",
+        "role" : "Mage",
+        "rank" : "6",
+        "deck": [
+            {"name" : "Fire Spin", "description" : "The target is Burned and Rooted.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Fire Spin", "description" : "The target is Burned and Rooted.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Mystical Fire", "description" : "Deal flat 1 damage to any enemies in between Delphox and the target. The target loses 1 Power.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Mystical Fire", "description" : "Deal flat 1 damage to any enemies in between Delphox and the target. The target loses 1 Power.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Psychic", "description" : "The next Ranged attack to the target deals +1 damage. This card can be discarded as a Bonus Action when a Delphox card is played to increase that card's range by 1, and can be treated as a Psychic Action.", "type" : "Psychic", "category" : "Ranged", "power" : "+1", "range" : "2"},
+            {"name" : "Psychic", "description" : "The next Ranged attack to the target deals +1 damage. This card can be discarded as a Bonus Action when a Delphox card is played to increase that card's range by 1, and can be treated as a Psychic Action.", "type" : "Psychic", "category" : "Ranged", "power" : "+1", "range" : "2"},
+            {"name" : "Psychic", "description" : "The next Ranged attack to the target deals +1 damage. This card can be discarded as a Bonus Action when a Delphox card is played to increase that card's range by 1, and can be treated as a Psychic Action.", "type" : "Psychic", "category" : "Ranged", "power" : "+1", "range" : "2"},
+            {"name" : "Psychic", "description" : "The next Ranged attack to the target deals +1 damage. This card can be discarded as a Bonus Action when a Delphox card is played to increase that card's range by 1, and can be treated as a Psychic Action.", "type" : "Psychic", "category" : "Ranged", "power" : "+1", "range" : "2"},
+            {"name" : "Future Sight", "description" : "If the last Action on this turn deals damage, it will deal +2 damage. You may look at the top 3 cards of your deck and rearrange them.", "type" : "Psychic", "category" : "Ranged", "power" : "-", "range" : "-"},
+            {"name" : "Future Sight", "description" : "If the last Action on this turn deals damage, it will deal +2 damage. You may look at the top 3 cards of your deck and rearrange them.", "type" : "Psychic", "category" : "Ranged", "power" : "-", "range" : "-"},
+            {"name" : "極: Gift of Divination", "description" : "Cost: 3. Lose the cost for this card. Shuffle up to 2 cards from the Lost pile back into your deck.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "-"}
         ]
     }
 ]
