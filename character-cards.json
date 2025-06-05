@@ -116,7 +116,7 @@
             {"name" : "Razor Shell", "description" : "Slicing-move. You may play another of the user's Razor Shell as a Bonus Action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Razor Shell", "description" : "Slicing-move. You may play another of the user's Razor Shell as a Bonus Action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Razor Shell", "description" : "Slicing-move. You may play another of the user's Razor Shell as a Bonus Action.", "type" : "Water", "category" : "Contact", "power" : "+0", "range" : "1"},
-            {"name" : "極: Super Scalchop Pledge", "description" : "Cost: 2. Choose up to two targets. This card functions as Water Pledge...", "type" : "Water", "category" : "Ranged", "power" : "+1", "range" : "2 (x2)"}
+            {"name" : "極: Super Scalchop Pledge", "description" : "Cost: 2. Choose up to two targets. This card functions as Water Pledge. - Discard Fire Pledge to deal double damage and create a Rainbow. - Discard Grass Pledge to deal double damage (treat the attack as Grass type), and create a Swamp. The Pokemon on the discarded card must be able to act for special effects. Rainbow: Remove active weather conditions. Return up to 1 Action card of every type from your discard pile to your hand. Draw double the amount of cards from Action Bonuses.", "type" : "Water", "category" : "Ranged", "power" : "+1", "range" : "2 (x2)"}
         ]
     },
     {
@@ -326,9 +326,9 @@
         "role" : "Support",
         "rank" : "3",
         "deck": [
-            {"name" : "Defense Curl", "description" : "The user gains 2 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Defense Curl", "description" : "The user gains 2 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Defense Curl", "description" : "The user gains 2 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Defense Curl", "description" : "The user gains 1 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Defense Curl", "description" : "The user gains 1 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Defense Curl", "description" : "The user gains 1 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Agility", "description" : "The user gains 2 Move.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Agility", "description" : "The user gains 2 Move.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Agility", "description" : "The user gains 2 Move.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "-"},
@@ -456,7 +456,7 @@
             {"name" : "Hydro Pump", "description" : "Hits all targets within range. Allies in range gain 1 Shield. This has +1 Power if Raining.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "|(2)"},
             {"name" : "Hurricane", "description" : "The target is Confused. Can hit Protected (Flying) targets. If Raining, hits Guarded targets. This has +0 Power if Sunny.", "type" : "Flying", "category" : "Ranged", "power" : "+1", "range" : "2"},
             {"name" : "Hurricane", "description" : "The target is Confused. Can hit Protected (Flying) targets. If Raining, hits Guarded targets. This has +0 Power if Sunny.", "type" : "Flying", "category" : "Ranged", "power" : "+1", "range" : "2"},
-            {"name" : "極: Air Mail", "description" : "Cost: 3. Search for up to 3 Item cards from your deck, reveal them, and add them to your hand. Shuffle your deck afterwards.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "極: Air Mail", "description" : "Cost: 3. Search for up to 3 Item cards from your deck, reveal them, and add them to your hand. Then, shuffle your deck.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"}
         ]
     },
     {
@@ -466,17 +466,17 @@
         "role" : "Mage",
         "rank" : "6",
         "deck": [
-            {"name" : "Will-O-Wisp", "description" : "The opponent discards the top card of their deck to the Lost pile. The user places a wisp on the targeted space. Enemies within Range 2 of the wisp are Taunted to that space.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "2"},
-            {"name" : "Will-O-Wisp", "description" : "The opponent discards the top card of their deck to the Lost pile. The user places a wisp on the targeted space. Enemies within Range 2 of the wisp are Taunted to that space.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Will-O-Wisp", "description" : "The opponent Burns a card. The user places a wisp on the targeted space. Enemies within Range 2 of the wisp are Taunted to that space.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Will-O-Wisp", "description" : "The opponent Burns a card. The user places a wisp on the targeted space. Enemies within Range 2 of the wisp are Taunted to that space.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Imprison", "description" : "On their next turn, the opponent cannot make Actions with the target's Action cards. The target's ability has no effect until the beginning of your next turn.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Imprison", "description" : "On their next turn, the opponent cannot make Actions with the target's Action cards. The target's ability has no effect until the beginning of your next turn.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "2"},
-            {"name" : "Extrasensory", "description" : "The opoonent must discard a card. Move the target one space.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "Extrasensory", "description" : "The opoonent must discard a card. Move the target one space.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "Extrasensory", "description" : "The opoonent must discard a card. Move the target one space.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Extrasensory", "description" : "The opponent must discard a card. Move the target one space. This attack deals double damage if you have 9 cards in your hand after playing this card.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Extrasensory", "description" : "The opponent must discard a card. Move the target one space. This attack deals double damage if you have 9 cards in your hand after playing this card.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Extrasensory", "description" : "The opponent must discard a card. Move the target one space. This attack deals double damage if you have 9 cards in your hand after playing this card.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
             {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
             {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
-            {"name" : "極: Nine-fold Energy", "description" : "Cost: 3. Lose the cost for this card. Draw 9 cards.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "極: Nine-fold Energy", "description" : "Cost: 3. Burn up to 9 cards from the opponent's deck.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "-"}
         ]
     },
     {
@@ -488,15 +488,55 @@
         "deck": [
             {"name" : "Fire Spin", "description" : "The target is Burned and Rooted.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Fire Spin", "description" : "The target is Burned and Rooted.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "Mystical Fire", "description" : "Deal flat 1 damage to any enemies in between Delphox and the target. The target loses 1 Power.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "Mystical Fire", "description" : "Deal flat 1 damage to any enemies in between Delphox and the target. The target loses 1 Power.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Mystical Fire", "description" : "Deal flat 1 damage to any enemies between Delphox and the target. The target loses 1 Power.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Mystical Fire", "description" : "Deal flat 1 damage to any enemies between Delphox and the target. The target loses 1 Power.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Psychic", "description" : "The next Ranged attack to the target deals +1 damage. This card can be discarded as a Bonus Action when a Delphox card is played to increase that card's range by 1, and can be treated as a Psychic Action.", "type" : "Psychic", "category" : "Ranged", "power" : "+1", "range" : "2"},
             {"name" : "Psychic", "description" : "The next Ranged attack to the target deals +1 damage. This card can be discarded as a Bonus Action when a Delphox card is played to increase that card's range by 1, and can be treated as a Psychic Action.", "type" : "Psychic", "category" : "Ranged", "power" : "+1", "range" : "2"},
             {"name" : "Psychic", "description" : "The next Ranged attack to the target deals +1 damage. This card can be discarded as a Bonus Action when a Delphox card is played to increase that card's range by 1, and can be treated as a Psychic Action.", "type" : "Psychic", "category" : "Ranged", "power" : "+1", "range" : "2"},
             {"name" : "Psychic", "description" : "The next Ranged attack to the target deals +1 damage. This card can be discarded as a Bonus Action when a Delphox card is played to increase that card's range by 1, and can be treated as a Psychic Action.", "type" : "Psychic", "category" : "Ranged", "power" : "+1", "range" : "2"},
-            {"name" : "Future Sight", "description" : "If the last Action on this turn deals damage, it will deal +2 damage. You may look at the top 3 cards of your deck and rearrange them.", "type" : "Psychic", "category" : "Ranged", "power" : "-", "range" : "-"},
-            {"name" : "Future Sight", "description" : "If the last Action on this turn deals damage, it will deal +2 damage. You may look at the top 3 cards of your deck and rearrange them.", "type" : "Psychic", "category" : "Ranged", "power" : "-", "range" : "-"},
-            {"name" : "極: Gift of Divination", "description" : "Cost: 3. Lose the cost for this card. Shuffle up to 2 cards from the Lost pile back into your deck.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "Future Sight", "description" : "If the third Action on this turn deals damage, it will deal +2 damage. You may look at the top 3 cards of your deck and rearrange them.", "type" : "Psychic", "category" : "Ranged", "power" : "-", "range" : "-"},
+            {"name" : "Future Sight", "description" : "If the third Action on this turn deals damage, it will deal +2 damage. You may look at the top 3 cards of your deck and rearrange them.", "type" : "Psychic", "category" : "Ranged", "power" : "-", "range" : "-"},
+            {"name" : "極: Gift of Divination", "description" : "Cost: 3. Lose the cost of this card. Until the end of your turn, actions have +1 range. Put a card from the Lost pile onto the top of your deck.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 498,
+        "name" : "Tepig",
+        "type" : "Fire",
+        "role" : "Tank",
+        "rank" : "2",
+        "deck": [
+            {"name" : "Odor Sleuth", "description" : "Remove Guarded from one enemy. Search your deck for any card and put it in your hand. Then, shuffle your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Odor Sleuth", "description" : "Remove Guarded from one enemy. Search your deck for any card and put it in your hand. Then, shuffle your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Defense Curl", "description" : "The user gains 1 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Defense Curl", "description" : "The user gains 1 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Flame Charge", "description" : "The user gains 1 Move. If this deals damage, the user is Guarded.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Flame Charge", "description" : "The user gains 1 Move. If this deals damage, the user is Guarded.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Flame Charge", "description" : "The user gains 1 Move. If this deals damage, the user is Guarded.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Fire Pledge", "description" : "This card has the following effects. - Discard Grass Pledge to deal double damage and create a Sea of Fire. - Discard Water Pledge to deal double damage (treat the attack as Water type), and create a Rainbow. The Pokemon on the discarded card must be able to act for special effects. Sea of Fire: Remove active terrain conditions. Cards used by the opponent on the next turn are lost instead of discarded, and cards drawn as an action are lost.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Fire Pledge", "description" : "This card has the following effects. - Discard Grass Pledge to deal double damage and create a Sea of Fire. - Discard Water Pledge to deal double damage (treat the attack as Water type), and create a Rainbow. The Pokemon on the discarded card must be able to act for special effects. Sea of Fire: Remove active terrain conditions. Cards used by the opponent on the next turn are lost instead of discarded, and cards drawn as an action are lost.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Fire Pledge", "description" : "This card has the following effects. - Discard Grass Pledge to deal double damage and create a Sea of Fire. - Discard Water Pledge to deal double damage (treat the attack as Water type), and create a Rainbow. The Pokemon on the discarded card must be able to act for special effects. Sea of Fire: Remove active terrain conditions. Cards used by the opponent on the next turn are lost instead of discarded, and cards drawn as an action are lost.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "極: Piggy Heat Crash", "description" : "Cost: 2. Discard any number of Fire cards in addition to cost. For every card discarded, Tepig gains Might. Move adjacent to the target. Then, deal damage. Add the number of Shields on Tepig to damage. The target is paralyzed.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "2"}
+        ]
+    },
+    {
+        "id" : 607,
+        "name" : "Litwick",
+        "type" : "Ghost/Fire",
+        "role" : "Mage",
+        "rank" : "2",
+        "deck": [
+            {"name" : "Will-O-Wisp", "description" : "The target is marked until the end of your turn. All units marked by the user are Burned.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Will-O-Wisp", "description" : "The target is marked until the end of your turn. All units marked by the user are Burned.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Hex", "description" : "Hits the target and all units marked by the user. Deal double damage to units under a negative status condition. The user heals 1 HP for every unit hit.", "type" : "Ghost", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Hex", "description" : "Hits the target and all units marked by the user. Deal double damage to units under a negative status condition. The user heals 1 HP for every unit hit.", "type" : "Ghost", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "※(2)"},
+            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "※(2)"},
+            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "※(2)"},
+            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "※(2)"},
+            {"name" : "Flame Burst", "description" : "Units adjacent to the target and units marked by the target also take flat 1 damage.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Flame Burst", "description" : "Units adjacent to the target and units marked by the target also take flat 1 damage.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "極: Flickering Inferno", "description" : "Cost: 2. Marks and Burns all enemies in range. This deals damage to enemies in range equal to the number of cards in the opponent's Lost pile, up to 5.", "type" : "Fire", "category" : "Ranged", "power" : "-", "range" : "※(2)"}
         ]
     }
 ]
