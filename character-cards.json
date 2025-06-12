@@ -395,7 +395,7 @@
             {"name" : "Surf", "description" : "The user gains 1 Move. Hits all targets in range. Can hit Protected (Water) targets.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "=(3)"},
             {"name" : "Surf", "description" : "The user gains 1 Move. Hits all targets in range. Can hit Protected (Water) targets.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "=(3)"},
             {"name" : "Surf", "description" : "The user gains 1 Move. Hits all targets in range. Can hit Protected (Water) targets.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "=(3)"},
-            {"name" : "Fly", "description" : "The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Flying). Can hit Protected (Flying) targets. Protected status is lost if the user makes another action.", "type" : "Flying", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Fly", "description" : "The user must not be Rooted to play this card. The user can move up to its Move stat before attacking. Instead of dealing damage, the user can gain Protected (Flying). Can hit Protected (Flying) targets. Protected status is lost if the user makes another action.", "type" : "Flying", "category" : "Contact", "power" : "+1", "range" : "1"},
             {"name" : "極: Cram-o-matic Barrage", "description" : "Cost: 3. Each Water Cramorant card in the discard pile counts towards 2 damage to the nearest enemy. If Cramorant has no Shields, the target is also paralyzed. If the first target faints and unused cards remain, continue dealing damage to the next nearest enemy. Damage cannot be split among equally distant enemies.", "type" : "Water", "category" : "Ranged", "power" : "-", "range" : "4"}
         ]
     },
@@ -449,9 +449,9 @@
             {"name" : "Stockpile", "description" : "Shuffle up to 3 cards from the Discard pile back into your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Stockpile", "description" : "Shuffle up to 3 cards from the Discard pile back into your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
             {"name" : "Stockpile", "description" : "Shuffle up to 3 cards from the Discard pile back into your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
-            {"name" : "Fly", "description" : "Pick up an adjacent ally. Move up to 1 + the user's Move. Place the ally in an adjacent space. The user and the ally gain Protected (Flying) unless they take another action.", "type" : "Flying", "category" : "Physical", "power" : "-", "range" : "-"},
-            {"name" : "Fly", "description" : "Pick up an adjacent ally. Move up to 1 + the user's Move. Place the ally in an adjacent space. The user and the ally gain Protected (Flying) unless they take another action.", "type" : "Flying", "category" : "Physical", "power" : "-", "range" : "-"},
-            {"name" : "Fly", "description" : "Pick up an adjacent ally. Move up to 1 + the user's Move. Place the ally in an adjacent space. The user and the ally gain Protected (Flying) unless they take another action.", "type" : "Flying", "category" : "Physical", "power" : "-", "range" : "-"},
+            {"name" : "Fly", "description" : "The user must not be Rooted to play this card. Pick up an adjacent ally. Move up to 1 + the user's Move. Place the ally in an adjacent space. The user and the ally gain Protected (Flying) unless they take another action.", "type" : "Flying", "category" : "Physical", "power" : "-", "range" : "-"},
+            {"name" : "Fly", "description" : "The user must not be Rooted to play this card. Pick up an adjacent ally. Move up to 1 + the user's Move. Place the ally in an adjacent space. The user and the ally gain Protected (Flying) unless they take another action.", "type" : "Flying", "category" : "Physical", "power" : "-", "range" : "-"},
+            {"name" : "Fly", "description" : "The user must not be Rooted to play this card. Pick up an adjacent ally. Move up to 1 + the user's Move. Place the ally in an adjacent space. The user and the ally gain Protected (Flying) unless they take another action.", "type" : "Flying", "category" : "Physical", "power" : "-", "range" : "-"},
             {"name" : "Hydro Pump", "description" : "Hits all targets within range. Allies in range gain 1 Shield. This has +1 Power if Raining.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "|(2)"},
             {"name" : "Hydro Pump", "description" : "Hits all targets within range. Allies in range gain 1 Shield. This has +1 Power if Raining.", "type" : "Water", "category" : "Ranged", "power" : "+0", "range" : "|(2)"},
             {"name" : "Hurricane", "description" : "The target is Confused. Can hit Protected (Flying) targets. If Raining, hits Guarded targets. This has +0 Power if Sunny.", "type" : "Flying", "category" : "Ranged", "power" : "+1", "range" : "2"},
@@ -537,6 +537,66 @@
             {"name" : "Flame Burst", "description" : "Units adjacent to the target and units marked by the target also take flat 1 damage.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Flame Burst", "description" : "Units adjacent to the target and units marked by the target also take flat 1 damage.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "極: Flickering Inferno", "description" : "Cost: 2. Marks and Burns all enemies in range. This deals damage to enemies in range equal to the number of cards in the opponent's Lost pile, up to 5.", "type" : "Fire", "category" : "Ranged", "power" : "-", "range" : "※(2)"}
+        ]
+    },
+    {
+        "id" : 448,
+        "name" : "Lucario",
+        "type" : "Fighting/Steel",
+        "role" : "Fighter",
+        "rank" : "6",
+        "deck": [
+            {"name" : "Aura Sphere", "description" : "Ball-based. Can hit Guarded targets.", "type" : "Fighting", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Aura Sphere", "description" : "Ball-based. Can hit Guarded targets.", "type" : "Fighting", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Aura Sphere", "description" : "Ball-based. Can hit Guarded targets.", "type" : "Fighting", "category" : "Ranged", "power" : "+0", "range" : "2"},
+            {"name" : "Force Palm", "description" : "The target is Paralyzed and pushed 1 space.", "type" : "Fighting", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Force Palm", "description" : "The target is Paralyzed and pushed 1 space.", "type" : "Fighting", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Meteor Mash", "description" : "The user has +1 Might until the end of your turn.", "type" : "Steel", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Meteor Mash", "description" : "The user has +1 Might until the end of your turn.", "type" : "Steel", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Extreme Speed", "description" : "The user can move up to 2 spaces before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Extreme Speed", "description" : "The user can move up to 2 spaces before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Extreme Speed", "description" : "The user can move up to 2 spaces before or after attacking. Draw a card.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "極: Vital Volley", "description" : "Cost: 3. Move up to the target. Deal damage equal to the number of Lucario cards in your discard pile. Lucario takes +2 damage from attacks until the beginning of your next turn.", "type" : "Fighting", "category" : "Contact", "power" : "-", "range" : "2"}
+        ]
+    },
+    {
+        "id" : 475,
+        "name" : "Gallade",
+        "type" : "Psychic/Fighting",
+        "role" : "Assassin",
+        "rank" : "6",
+        "deck": [
+            {"name" : "Psycho Cut", "description" : "Slicing-move. Ignores Shields. Hits all targets in range.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "|(2)"},
+            {"name" : "Psycho Cut", "description" : "Slicing-move. Ignores Shields. Hits all targets in range.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "|(2)"},
+            {"name" : "Psycho Cut", "description" : "Slicing-move. Ignores Shields. Hits all targets in range.", "type" : "Psychic", "category" : "Ranged", "power" : "+0", "range" : "|(2)"},
+            {"name" : "Teleport", "description" : "Move to the target space.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "3"},
+            {"name" : "Teleport", "description" : "Move to the target space.", "type" : "Psychic", "category" : "Status", "power" : "-", "range" : "3"},
+            {"name" : "Sacred Sword", "description" : "Slicing-move. Ignores Shields. Can hit Guarded targets.", "type" : "Fighting", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Sacred Sword", "description" : "Slicing-move. Ignores Shields. Can hit Guarded targets.", "type" : "Fighting", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Slash", "description" : "Slicing-move. Ignores Shields.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Slash", "description" : "Slicing-move. Ignores Shields.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Slash", "description" : "Slicing-move. Ignores Shields.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "極: Dual Wield", "description" : "Cost: 3. Gain 2 Might. Until the end of this turn, Gallade can use a duplicate of a card played as a Bonus Action", "type" : "Fighting", "category" : "Status", "power" : "-", "range" : "2"}
+        ]
+    },
+    {
+        "id" : 559,
+        "name" : "Scraggy",
+        "type" : "Dark/Fighting",
+        "role" : "Tank",
+        "rank" : "2",
+        "deck": [
+            {"name" : "Taunt", "description" : "The user gains 1 Shield. The target is Taunted.", "type" : "Dark", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Taunt", "description" : "The user gains 1 Shield. The target is Taunted.", "type" : "Dark", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Taunt", "description" : "The user gains 1 Shield. The target is Taunted.", "type" : "Dark", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Bulk Up", "description" : "The user gains 1 Might and 1 Shield.", "type" : "Fighting", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Bulk Up", "description" : "The user gains 1 Might and 1 Shield.", "type" : "Fighting", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Bulk Up", "description" : "The user gains 1 Might and 1 Shield.", "type" : "Fighting", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Payback", "description" : "This deals double the damage if the user was attacked last turn.", "type" : "Dark", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Payback", "description" : "This deals double the damage if the user was attacked last turn.", "type" : "Dark", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Headbutt", "description" : "Push the target 2 spaces. Allies take no damage.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Headbutt", "description" : "Push the target 2 spaces. Allies take no damage.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "極: Baggy Baggy Trousers", "description" : "Cost: 1. Scraggy and adjacent allies take half damage rounded down on the next turn.", "type" : "Fighting", "category" : "Status", "power" : "-", "range" : "-"}
         ]
     }
 ]
