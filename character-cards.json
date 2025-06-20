@@ -206,8 +206,8 @@
         "role" : "Support",
         "rank" : "5",
         "deck": [
-            {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 speed. If they are at 1 speed already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
-            {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 speed. If they are at 1 speed already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 Move. If they are at 1 Move already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Cotton Spore", "description" : "All enemies within range lose 1 Move. If they are at 1 Move already, they cannot move on the next turn.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
             {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
             {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
             {"name" : "Cotton Guard", "description" : "All allies within range gain 2 Shield.", "type" : "Grass", "category" : "Status", "power" : "-", "range" : "※(1)"},
@@ -216,7 +216,7 @@
             {"name" : "Fairy Wind", "description" : "Wind move. Deals 1 fixed damage to all enemies in range. The user gains 1 Move. Until the end of your turn, the user's status moves have +1 range.", "type" : "Fairy", "category" : "Ranged", "power" : "-", "range" : "□"},
             {"name" : "Fairy Wind", "description" : "Wind move. Deals 1 fixed damage to all enemies in range. The user gains 1 Move. Until the end of your turn, the user's status moves have +1 range.", "type" : "Fairy", "category" : "Ranged", "power" : "-", "range" : "□"},
             {"name" : "Fairy Wind", "description" : "Wind move. Deals 1 fixed damage to all enemies in range. The user gains 1 Move. Until the end of your turn, the user's status moves have +1 range.", "type" : "Fairy", "category" : "Ranged", "power" : "-", "range" : "□"},
-            {"name" : "極: Fairy Tailwind", "description" : "Cost: 2. Wind move. Double the user's speed. Draw 5 cards.", "type" : "Fairy", "category" : "Status", "power" : "-", "range" : "□"}
+            {"name" : "極: Fairy Tailwind", "description" : "Cost: 2. Wind move. Double the user's Move. Draw 5 cards.", "type" : "Fairy", "category" : "Status", "power" : "-", "range" : "□"}
         ]
     },
     {
@@ -380,6 +380,26 @@
         ]
     },
     {
+        "id" : 915,
+        "name" : "Lechonk",
+        "type" : "Normal",
+        "role" : "Support",
+        "rank" : "1",
+        "deck": [
+            {"name" : "Odor Sleuth", "description" : "Remove Guarded from one enemy. Search your deck for any card and put it in your hand. Then, shuffle your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Odor Sleuth", "description" : "Remove Guarded from one enemy. Search your deck for any card and put it in your hand. Then, shuffle your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Odor Sleuth", "description" : "Remove Guarded from one enemy. Search your deck for any card and put it in your hand. Then, shuffle your deck.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Covet", "description" : "Search for any Item from your deck and put it in your hand.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Covet", "description" : "Search for any Item from your deck and put it in your hand.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dig", "description" : "Gain Protected (Ground). Put an Item from the Lost pile into your hand.", "type" : "Ground", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Dig", "description" : "Gain Protected (Ground). Put an Item from the Lost pile into your hand.", "type" : "Ground", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Headbutt", "description" : "Push the target 2 spaces. Allies take no damage.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Headbutt", "description" : "Push the target 2 spaces. Allies take no damage.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Headbutt", "description" : "Push the target 2 spaces. Allies take no damage.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "極: Repelling Aroma", "description" : "Cost: 1. Move all enemies 1 space away from Lechonk.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
         "id" : 845,
         "name" : "Cramorant",
         "type" : "Flying/Water",
@@ -476,7 +496,7 @@
             {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
             {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
             {"name" : "Flamethrower", "description" : "Hits and Burns all Pokemon in range.", "type" : "Fire", "category" : "Ranged", "power" : "+1", "range" : "|(2)"},
-            {"name" : "極: Nine-fold Energy", "description" : "Cost: 3. Burn up to 9 cards from the opponent's deck.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "-"}
+            {"name" : "極: Nine-fold Energy", "description" : "Cost: 3. Burn up to 9 cards or the number of cards remaining, whichever is fewer, from the opponent's deck.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "-"}
         ]
     },
     {
@@ -530,13 +550,13 @@
             {"name" : "Will-O-Wisp", "description" : "The target is marked until the end of your turn. All units marked by the user are Burned.", "type" : "Fire", "category" : "Status", "power" : "-", "range" : "2"},
             {"name" : "Hex", "description" : "Hits the target and all units marked by the user. Deal double damage to units under a negative status condition. The user heals 1 HP for every unit hit.", "type" : "Ghost", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Hex", "description" : "Hits the target and all units marked by the user. Deal double damage to units under a negative status condition. The user heals 1 HP for every unit hit.", "type" : "Ghost", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "※(2)"},
-            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "※(2)"},
-            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "※(2)"},
-            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "※(2)"},
+            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "2+"},
+            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "2+"},
+            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "2+"},
+            {"name" : "Night Shade", "description" : "Enemies in range are marked until the end of your turn. All units marked by the user take flat 1 damage, ignoring Shield.", "type" : "Ghost", "category" : "Ranged", "power" : "-", "range" : "2+"},
             {"name" : "Flame Burst", "description" : "Units adjacent to the target and units marked by the target also take flat 1 damage.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
             {"name" : "Flame Burst", "description" : "Units adjacent to the target and units marked by the target also take flat 1 damage.", "type" : "Fire", "category" : "Ranged", "power" : "+0", "range" : "2"},
-            {"name" : "極: Flickering Inferno", "description" : "Cost: 2. Marks and Burns all enemies in range. This deals damage to enemies in range equal to the number of cards in the opponent's Lost pile, up to 5.", "type" : "Fire", "category" : "Ranged", "power" : "-", "range" : "※(2)"}
+            {"name" : "極: Flickering Inferno", "description" : "Cost: 2. Marks and Burns all enemies in range. This deals damage to enemies in range equal to the number of cards in the opponent's Lost pile, up to 5.", "type" : "Fire", "category" : "Ranged", "power" : "-", "range" : "2+"}
         ]
     },
     {
@@ -597,6 +617,66 @@
             {"name" : "Headbutt", "description" : "Push the target 2 spaces. Allies take no damage.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "Headbutt", "description" : "Push the target 2 spaces. Allies take no damage.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
             {"name" : "極: Baggy Baggy Trousers", "description" : "Cost: 1. Scraggy and adjacent allies take half damage rounded down on the next turn.", "type" : "Fighting", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 663,
+        "name" : "Talonflame",
+        "type" : "Fire/Flying",
+        "role" : "Assassin",
+        "rank" : "6",
+        "deck": [
+            {"name" : "Flame Charge", "description" : "The user gains 1 Move.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Flame Charge", "description" : "The user gains 1 Move.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Flame Charge", "description" : "The user gains 1 Move.", "type" : "Fire", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Aerial Ace", "description" : "Can hit Guarded targets. Move to any adjacent space to the target. If the targeted space is empty, stay on that space.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Aerial Ace", "description" : "Can hit Guarded targets. Move to any adjacent space to the target. If the targeted space is empty, stay on that space.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Aerial Ace", "description" : "Can hit Guarded targets. Move to any adjacent space to the target. If the targeted space is empty, stay on that space.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "2"},
+            {"name" : "Fly", "description" : "The user cannot be Rooted. The user is Protected (Flying) unless they make another action. During your next Move phase, the user can move 2 extra spaces. Then, the user may deal damage to a target in range.", "type" : "Flying", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Fly", "description" : "The user cannot be Rooted. The user is Protected (Flying) unless they make another action. During your next Move phase, the user can move 2 extra spaces. Then, the user may deal damage to a target in range.", "type" : "Flying", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Brave Bird", "description" : "Move to an adjacent space to the target space, and take damage equal to 1 + the number of spaces moved for this Action. Deal damage equal to the user's Move.", "type" : "Flying", "category" : "Contact", "power" : "-", "range" : "3"},
+            {"name" : "Brave Bird", "description" : "Move to an adjacent space to the target space, and take damage equal to 1 + the number of spaces moved for this Action. Deal damage equal to the user's Move.", "type" : "Flying", "category" : "Contact", "power" : "-", "range" : "3"},
+            {"name" : "極: Blitzing Stoop", "description" : "Cost: 3. Move to any open space on Talonflame's row. Talonflame takes damage equal to 1 + the number of spaces moved. Deal damage to all enemies passed through.", "type" : "Fire", "category" : "Contact", "power" : "+3", "range" : "|(Row)"}
+        ]
+    },
+    {
+        "id" : 628,
+        "name" : "Braviary",
+        "type" : "Normal/Flying",
+        "role" : "Fighter",
+        "rank" : "6",
+        "deck": [
+            {"name" : "Crush Claw", "description" : "Deal +2 damage if this attack breaks a Shield. The target is Bound.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Crush Claw", "description" : "Deal +2 damage if this attack breaks a Shield. The target is Bound.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Crush Claw", "description" : "Deal +2 damage if this attack breaks a Shield. The target is Bound.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Crush Claw", "description" : "Deal +2 damage if this attack breaks a Shield. The target is Bound.", "type" : "Normal", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Superpower", "description" : "Lose 1 Might. The user deals +2 damage and takes +2 damage from incoming attacks until the beginning of your next turn.", "type" : "Fighting", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Superpower", "description" : "Lose 1 Might. The user deals +2 damage and takes +2 damage from incoming attacks until the beginning of your next turn.", "type" : "Fighting", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Sky Drop", "description" : "The user cannot be Rooted. The user cannot make any other actions after. Damage is dealt at the start of your next Action phase. The target is Bound until the end of your next Move phase. Both the target and user are Protected (Flying) until the start of your next turn.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Sky Drop", "description" : "The user cannot be Rooted. The user cannot make any other actions after. Damage is dealt at the start of your next Action phase. The target is Bound until the end of your next Move phase. Both the target and user are Protected (Flying) until the start of your next turn.", "type" : "Flying", "category" : "Contact", "power" : "+0", "range" : "1"},
+            {"name" : "Brave Bird", "description" : "Take damage equal to the user's Might.", "type" : "Flying", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "Brave Bird", "description" : "Take damage equal to the user's Might.", "type" : "Flying", "category" : "Contact", "power" : "+1", "range" : "1"},
+            {"name" : "極: Hero of the Skies", "description" : "Cost: 3. The user can move to any space adjacent to an ally. The user gains 3 Shield and 2 Might.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"}
+        ]
+    },
+    {
+        "id" : 333,
+        "name" : "Swablu",
+        "type" : "Normal/Flying",
+        "role" : "Support",
+        "rank" : "2",
+        "deck": [
+            {"name" : "Sing", "description" : "The target is asleep. You may choose to instead heal the target by 2 HP.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Sing", "description" : "The target is asleep. You may choose to instead heal the target by 2 HP.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Sing", "description" : "The target is asleep. You may choose to instead heal the target by 2 HP.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Sing", "description" : "The target is asleep. You may choose to instead heal the target by 2 HP.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "2"},
+            {"name" : "Safeguard", "description" : "All allies in range are protected from negative status conditions until the beginning of your next turn and gain 1 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Safeguard", "description" : "All allies in range are protected from negative status conditions until the beginning of your next turn and gain 1 Shield.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "※(1)"},
+            {"name" : "Refresh", "description" : "Discard your hand and draw 7 cards.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Refresh", "description" : "Discard your hand and draw 7 cards.", "type" : "Normal", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Mirror Move", "description" : "Choose a non-Ultimate Action card from any player's discard pile. Use that card as this action. This action counts as both cards' type.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "Mirror Move", "description" : "Choose a non-Ultimate Action card from any player's discard pile. Use that card as this action. This action counts as both cards' type.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "-"},
+            {"name" : "極: Tidy Fluff", "description" : "Cost: 2. Remove obstacles in range. All allies in range gain 2 HP and 2 Shield.", "type" : "Flying", "category" : "Status", "power" : "-", "range" : "※(2)"}
         ]
     }
 ]

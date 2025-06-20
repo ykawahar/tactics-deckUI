@@ -3,8 +3,8 @@
     { "id": 100002, "name": "X Speed", "type": "Item", "category": "", "power": "", "range": "", "description": "One Pokemon of choice can move 1 extra space.", "character":"Item" },
     { "id": 100003, "name": "Full Restore", "type": "Item", "category": "", "power": "", "range": "", "description": "Remove all non-volatile Status conditions from one of your Pokemon.", "character":"Item" },
     { "id": 100004, "name": "X Attack", "type": "Item", "category": "", "power": "", "range": "", "description": "The next attack deals +1 damage.", "character":"Item" },
-    { "id": 100101, "name": "Damp Rock", "type": "Item", "category": "", "power": "", "range": "", "description": "For Raining and Rainbow effects on this turn, you can Draw/Discard 2 more cards, and gain 1 more stat/damage increase. You may apply this item's effects for abilities that already activated.", "character":"Item" }, 
-    { "id": 100102, "name": "Heat Rock", "type": "Item", "category": "", "power": "", "range": "", "description": "For Sunny and Rainbow effects on this turn, you can Draw/Discard 2 more cards, and gain 1 more stat/damage increase. You may apply this item's effects for abilities that already activated.", "character":"Item" }, 
+    { "id": 100101, "name": "Damp Rock", "type": "Item", "category": "", "power": "", "range": "", "description": "For Raining effects on this turn, you can Draw/Discard 2 more cards, and gain 1 more stat/damage increase. You may apply this item's effects for abilities that already activated.", "character":"Item" }, 
+    { "id": 100102, "name": "Heat Rock", "type": "Item", "category": "", "power": "", "range": "", "description": "For Sunny effects on this turn, you can Draw/Discard 2 more cards, and gain 1 more stat/damage increase. You may apply this item's effects for abilities that already activated.", "character":"Item" }, 
 
     { "id": 200001, "name": "Firebreather", "type": "Trainer", "category": "", "power": "", "range": "", "description": "The next Fire attack deals +2 damage.", "character":"Trainer" },
     { "id": 200002, "name": "Burglar", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Ally Fire and Poison types are protected.", "character":"Trainer" },
@@ -17,6 +17,6 @@
     { "id": 200009, "name": "Camper", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 4 and lower with the Walk trait gain 1 Power.", "character":"Trainer" },
     { "id": 200010, "name": "Picnicker", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 4 and lower with the Walk trait gain 1 Move.", "character":"Trainer" },
     { "id": 200011, "name": "Tamer", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Allies of Rank 5 and above gain 1 Power and take 3 damage.", "character":"Trainer" },
-    { "id": 200012, "name": "Parasol Lady", "type": "Trainer", "category": "", "power": "", "range": "", "description": "You do not lose any cards from discards from weather effects on this turn (draw instead of discard). If cards were discarded from weather-related abilities, retrieve them from the discard pile.", "character":"Trainer"}
-
+    { "id": 200012, "name": "Parasol Lady", "type": "Trainer", "category": "", "power": "", "range": "", "description": "You do not lose any cards from discards from weather effects on this turn (draw instead of discard). If cards were discarded from weather-related abilities, retrieve them from the discard pile.", "character":"Trainer"},
+    { "id": 200013, "name": "Black Belt", "type": "Trainer", "category": "", "power": "", "range": "", "description": "Fighting attacks deal +1 damage on this turn.", "character":"Trainer"}
 ]
